@@ -1,0 +1,21 @@
+#!/bin/sh
+
+HOSTLIST=$HADOOP_SLAVES
+
+if [ -f "${HADOOP_CONF_DIR}/hadoop-env.sh" ]; then
+  . "${HADOOP_CONF_DIR}/hadoop-env.sh"
+fi
+
+if [ "$HOSTLIST" = "" ]; then
+  if [ "$HADOOP_SLAVES" = "" ]; then
+    export HOSTLIST="${HADOOP_CONF_DIR}/slaves"
+  else
+    export HOSTLIST="${HADOOP_SLAVES}"
+  fi
+fi
+
+for slave in `cat "$HOSTLIST"`;
+do
+	echo cleaning $slave
+	ssh $slave rm -rf /tmp/pipeTmpFiles
+done

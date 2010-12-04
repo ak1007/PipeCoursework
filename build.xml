@@ -1,0 +1,483 @@
+<!--
+     General purpose build script. 
+
+     This build script assumes that the source code of your web application
+     is organized into the following subdirectories underneath the source
+     code directory from which you execute the build script:
+
+        docs                 Static documentation files to be copied to
+                             the "docs" subdirectory of your distribution.
+
+        src                  Java source code (and associated resource files)
+                             to be compiled to the build subdirectory of your 
+                             applicaiton.
+
+-->
+
+
+<!-- A "project" describes a set of targets that may be requested
+     when Ant is executed.  The "default" attribute defines the
+     target which is executed if no specific target is requested,
+     and the "basedir" attribute defines the current working directory
+     from which Ant executes the requested task.  This is normally
+     set to the current working directory.
+-->
+
+<project name="pipe" default="compile" basedir=".">
+
+
+
+<!-- ===================== Property Definitions =========================== -->
+
+
+<!--
+
+  Each of the following properties are used in the build script.
+  Values for these properties are set by the first place they are
+  defined, from the following list:
+
+  * Definitions on the "ant" command line (ant -Dfoo=bar compile).
+
+  * Definitions from a "build.properties" file in the top level
+    source directory of this application.
+
+  * Definitions from a "build.properties" file in the developer's
+    home directory.
+
+  * Default definitions in this build.xml file.
+
+  You will note below that property values can be composed based on the
+  contents of previously defined properties.  This is a powerful technique
+  that helps you minimize the number of changes required when your development
+  environment is modified.  Note that property composition is allowed within
+  "build.properties" files as well as in the "build.xml" script.
+
+-->
+ 
+
+  <property file="${basedir}/build.properties"/>
+
+  
+
+<!-- ==================== File and Directory Names ======================== -->
+
+
+<!--
+
+  These properties generally define file and directory names (or paths) that
+  affect where the build process stores its outputs.
+
+  app.name             Base name of this application, used to
+                       construct filenames and directories.
+                       Defaults to "myapp".
+
+  app.path             Context path to which this application should be
+                       deployed (defaults to "/" plus the value of the
+                       "app.name" property).
+
+  app.version          Version number of this iteration of the application.
+
+  build.dir           The directory into which the "prepare" and
+                       "compile" targets will generate their output.
+                       Defaults to "build".
+
+  dist.dir            The name of the base directory in which
+                       distribution files are created.
+                       Defaults to "dist".
+
+-->
+
+  <property name="app.name"     	value="pipe"/>
+  <property name="app.path"			value="/pipe"/>
+  <property name="app.version"  	value="2.4-dev"/>
+  <property name="src.dir"    		value="${basedir}/src"/>
+  <property name="test.dir"			value="${basedir}/test"/>
+  <property name="test.lib.dir"		value="${test.dir}/lib"/>
+  <property name="test.lib.dir"		value="${test.dir}/lib"/>
+  <property name="build.dir"   		value="${basedir}/build"/>
+  <property name="build.app.dir"   	value="${build.dir}/app"/>	
+  <property name="build.test.dir"	value="${build.dir}/test"/>
+  <property name="test.data.dir"	value="${build.test.dir}/data"/>
+  <property name="test.reports.dir"	value="${build.test.dir}/reports"/>
+  <property name="dist.dir"    		value="${basedir}/dist"/>
+  <property name="docs.dir"   		value="${basedir}/docs"/>
+  <property name="rta.res.dir"      value="${basedir}/RTAResources"/>
+
+
+<!-- ================== Custom Ant Task Definitions ======================= -->
+
+
+<!--These properties define custom tasks for the Ant build tool -->
+
+
+	
+<!--  ==================== Compilation Control Options ==================== -->
+
+<!--
+
+  These properties control option settings on the Javac compiler when it
+  is invoked using the <javac> task.
+
+  compile.debug        Should compilation include the debug option?
+
+  compile.deprecation  Should compilation include the deprecation option?
+
+  compile.optimize     Should compilation include the optimize option?
+
+-->
+
+  <property name="compile.debug"       value="true"/>
+  <property name="compile.deprecation" value="false"/>
+  <property name="compile.optimize"    value="true"/>
+
+
+
+<!-- ==================== External Dependencies =========================== -->
+
+
+<!--
+
+  Use property values to define the locations of external JAR files on which
+  your application will depend.  In general, these values will be used for
+  two purposes:
+  * Inclusion on the classpath that is passed to the Javac compiler
+  * Being copied into the "build/lib" directory during execution
+    of the "dist" target.
+
+-->
+
+<!--
+
+  <property name="foo.jar"	value="path/to/foo.jar"/>
+
+-->
+
+<!-- ==================== Compilation Classpath =========================== -->
+
+<!--
+
+  Rather than relying on the CLASSPATH environment variable, Ant includes
+  features that makes it easy to dynamically construct the classpath you
+  need for each compilation.  
+
+-->
+
+  <path id="compile.classpath">
+
+    <!-- Include all JAR files that will be included in /build/lib -->
+    <!-- *** CUSTOMIZE HERE AS REQUIRED BY YOUR APPLICATION *** -->
+
+  	<!-- Examples
+    <pathelement location="${servlet.jar}"/>
+  	<pathelement location="${db.driver.lib}"/>
+    <fileset dir="${hibernate.libs}">
+      <include name="*.jar"/>
+    </fileset>  	
+-->
+
+  </path>
+
+	<!-- ==================== Test Compilation Classpath ====================== -->
+
+	<!--
+
+	  Ditto for compiling the test source files. The main compile classpath is
+	  included by referencing it, then extra test-specific jars are listed.
+
+	-->
+
+  <path id="test.classpath">
+  	
+  	<!-- include main compilation classpath-->
+	<path refid="compile.classpath"/>
+
+  	<!--include all external libraries needed to compile and run tests-->
+  	<fileset dir="${test.lib.dir}">
+  	    <include name="**/*.jar"/>
+  	</fileset>
+
+  	<!--include location of compiled app classes to give to junit at test runtime-->
+  	<pathelement location="${build.app.dir}"/>
+  	<pathelement location="${build.test.dir}"/>
+  	
+  </path>  	
+
+<!-- ==================== All Target ====================================== -->
+
+<!--
+
+  The "all" target is a shortcut for running the "clean" target followed
+  by the "compile" target, to force a complete recompile.
+
+-->
+
+  <target name="all" depends="clean,test"
+   description="Clean build and dist directories, then compile and run 
+  	all tests"/>
+
+
+
+<!-- ==================== Clean Target ==================================== -->
+
+<!--
+
+  The "clean" target deletes any previous "build" and "dist" directory,
+  so that you can be ensured the application can be built from scratch.
+
+-->
+
+  <target name="clean"
+   description="Delete old build and dist directories">
+    <delete dir="${build.dir}"/>
+    <delete dir="${dist.dir}"/>
+  </target>
+
+
+
+<!-- ==================== Compile Target ================================== -->
+
+<!--
+
+  The "compile" target transforms source files (from your "src" directory)
+  into object files in the appropriate location in the build directory.
+
+-->
+
+  <target name="compile" depends="prepare" description="Compile Java sources">
+
+    <!-- Compile Java classes as necessary -->
+    <javac srcdir="${src.dir}"
+          destdir="${build.app.dir}"
+            debug="${compile.debug}"
+      deprecation="${compile.deprecation}"
+         optimize="${compile.optimize}">
+        <classpath refid="compile.classpath"/>
+    </javac>
+  	
+	<!-- Create jar file for hadoop -->
+    <jar jarfile="${build.app.dir}/job.jar"
+         basedir="${build.app.dir}">
+      <include name="flanagan/math/*.class"/>
+    	<include name="flanagan/complex/*.class"/>
+    	<include name="pipe/dataLayer/ComplexWritable.class"/>
+    	<include name="pipe/dataLayer/DoubleTupleWritable.class"/>
+    	<include name="pipe/dataLayer/EulerSequenceFileInputFormat.class"/>
+    	<include name="pipe/dataLayer/calculations/LaplaceTransformInverter.class"/>
+    	<include name="pipe/dataLayer/calculations/NotConvergingException.class"/>
+    	<include name="pipe/dataLayer/calculations/LTIMapRed.class"/>
+    	<include name="pipe/dataLayer/DoubleWritable$Comparator.class"/>
+		<include name="pipe/dataLayer/calculations/LTIMapRed$RTAMapper.class"/>
+		<include name="pipe/dataLayer/calculations/LTIMapRed$RTAReducer.class"/>
+    	<include name="pipe/dataLayer/calculations/LTIMapRed$1.class"/>
+    </jar>
+
+
+  </target>
+
+<!--======================Test Compile Target============================= -->
+	
+	<target name="compile-tests" depends="compile,prepare-tests"
+		description="Compiles Test sources">
+	  <javac srcdir="${test.dir}" 
+		     destdir="${build.test.dir}"
+		     debug="${compile.debug}">
+	  	
+	  	<classpath refid="test.classpath"/>
+	  </javac>
+	  
+	</target>
+
+<!-- ==================== Test Target ===================================== -->
+	
+	<target name="test" depends="compile-tests"
+		description="Runs unit tests">
+		
+		<junit printsummary="on"
+			    errorproperty="test.failed"
+			    failureproperty="test.failed">
+			<classpath refid="test.classpath"/>
+<!--			<formatter type="plain" usefile="false"/>
+-->			<formatter type="xml"/>
+			
+			<!-- use this line to pick a specific test from the command line-->
+<!--			<test name="${testcase}" todir="${test.data.dir}" if="testcase"/>
+-->
+			<test name="pipe.AllTests" todir="${test.data.dir}" unless="testcase"/>
+		</junit>
+	
+		<junitreport todir="${test.data.dir}">
+			<fileset dir="${test.data.dir}">
+				<include name="TEST-*.xml"/>
+			</fileset>
+			<report format="frames" todir="${test.reports.dir}"/>
+		</junitreport>
+		
+		<fail message="Tests failed. Check log and/or reports."
+					if="test.failed"/>
+	</target>
+
+	
+<!-- ==================== Dist Target ===================================== -->
+
+
+<!--
+
+  The "dist" target creates a binary distribution of your application
+  in a directory structure ready to be archived in a tar.gz or zip file.
+  Note that this target depends on two others:
+
+  * "compile" so that the entire application (including external
+    dependencies) will have been assembled
+
+  * "javadoc" so that the application Javadocs will have been created
+
+-->
+
+  <target name="dist" depends="compile,javadoc"
+   description="Create binary distribution">
+  	
+    <!-- Copy documentation subdirectories -->
+    <mkdir   dir="${dist.dir}/docs"/>
+    <copy    todir="${dist.dir}/docs">
+      <fileset dir="${docs.dir}"/>
+    </copy>
+
+    <!-- Create application JAR file -->
+    <jar destfile="${dist.dir}/${app.name}-${app.version}.jar"
+         basedir="${build.app.dir}"/>
+
+    <!-- Copy additional files to ${dist.dir} as necessary -->
+
+  </target>
+
+
+
+<!-- ==================== Javadoc Target ================================== -->
+
+<!--
+
+  The "javadoc" target creates Javadoc API documentation for the Java
+  classes included in your application.  Normally, this is only required
+  when preparing a distribution release, but is available as a separate
+  target in case the developer wants to create Javadocs independently.
+
+-->
+
+  <target name="javadoc" depends="compile"
+   description="Create Javadoc API documentation">
+
+    <mkdir          dir="${dist.dir}/docs/api"/>
+    <javadoc sourcepath="${src.dir}"
+                destdir="${dist.dir}/docs/api"
+           packagenames="pipe.*, jama.*">
+      <classpath refid="compile.classpath"/>
+    </javadoc>
+
+  </target>
+
+
+
+<!-- ==================== Prepare Target ================================== -->
+
+<!--
+
+  The "prepare" target is used to create the "build" destination directory,
+  and copy the static contents of your web application to it.  If you need
+  to copy static files from external dependencies, you can customize the
+  contents of this task.
+
+  Normally, this task is executed indirectly when needed.
+
+-->
+
+  <target name="prepare">
+
+    <!-- Create build and dist directories as needed -->
+    <mkdir  dir="${build.app.dir}"/>
+  	<mkdir dir="${dist.dir}"/>
+  	
+  	<mkdir dir="${basedir}/pipe/io"/>
+  	<mkdir dir="${basedir}/pipe/dataLayer"/>
+  	<mkdir dir="${basedir}/pipe/dataLayer/calculations"/>
+
+    <!-- Copy static content of this application -->
+    <copy todir="${build.app.dir}">
+    	<fileset dir="${basedir}/RTAResources"/>
+      <fileset dir="${basedir}/Resources"/>
+      <fileset dir="${src.dir}" excludes="**/*.java"/>
+    	<fileset dir="${basedir}/lib" excludes="hadoop-0.13.1-dev-core.jar tools.jar"/>
+    </copy>
+  	
+  	<copy todir="${basedir}">
+  	    	<fileset dir="${basedir}/RTAResources"/>
+  	</copy>
+  	
+  	<copy file="${build.app.dir}/pipe/io/NewStateRecord.class" todir="${basedir}/pipe/io"/>
+  	<copy file="${build.app.dir}/pipe/dataLayer/DynamicMarking.class" todir="${basedir}/pipe/dataLayer"/>
+
+    <!-- Copy external dependencies as required -->
+    <!-- *** CUSTOMIZE HERE AS REQUIRED BY YOUR APPLICATION *** 
+    <mkdir  dir="${build.prod.dir}/WEB-INF/lib"/>
+    <copy todir="${build.prod.dir}/WEB-INF/lib">
+    	<fileset dir="${hibernate.libs}">
+    	    <include name="*.jar"/>
+        </fileset>
+    </copy>
+  	<copy todir="${build.prod.dir}/lib" file="${servlet.jar}"/>
+  	<copy todir="${build.prod.dir}/lib" file="${db.driver.lib}"/>
+
+-->
+    <!-- Copy static files from external dependencies as needed -->
+    <!-- *** CUSTOMIZE HERE AS REQUIRED BY YOUR APPLICATION *** -->
+
+  </target>
+	
+<!-- ==================== Prepare Tests Target ============================ -->
+
+	<!--
+
+	  The "prepare tests" target is used to 
+
+	-->
+
+	<target name="prepare-tests" depends="prepare">
+		
+	  	<mkdir dir="${build.test.dir}"/>
+		
+		<delete dir="${test.data.dir}" />
+		<delete dir="${test.reports.dir}" />
+		<mkdir dir="${test.data.dir}"/>
+		<mkdir dir="${test.reports.dir}"/>
+		
+  	    <copy todir="${build.test.dir}">
+			<fileset dir="${test.dir}" excludes="**/*.java,**/*.jar"/>
+		</copy>
+				
+	</target>
+	
+<!-- ==================== Echo Target =================================== -->
+
+	<target name="echo">
+		
+		<echo message="user.name = ${user.name}"/>
+		<echo message="user.home = ${user.home}"/>
+		<echo message="java.home = ${java.home}"/>
+		<echo message="basedir = ${basedir}"/>
+	</target>
+	
+	
+    <!-- ================================= 
+          target: run              
+         ================================= -->
+
+	<target name="run" depends="compile" description="--> builds and runs PIPE">
+        <java
+        	classname="RunGui"
+        	fork="true"
+        	dir="${build.app.dir}">
+        </java>
+    </target>
+
+
+
+</project>

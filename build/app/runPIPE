@@ -1,0 +1,33 @@
+CLASSPATH="${HADOOP_CONF_DIR}"
+CLASSPATH=${CLASSPATH}:./
+CLASSPATH=${CLASSPATH}:$JAVA_HOME/lib/tools.jar
+  CLASSPATH=${CLASSPATH}:$HADOOP_INSTALL/hadoop/build/classes
+  CLASSPATH=${CLASSPATH}:$HADOOP_INSTALL/hadoop/build  
+CLASSPATH=${CLASSPATH}:$HADOOP_INSTALL/hadoop/build/test/classes
+CLASSPATH=${CLASSPATH}:$HADOOP_INSTALL/hadoop/conf
+
+for f in ./*.jar; do
+  CLASSPATH=${CLASSPATH}:$f;
+done
+
+
+
+for f in $HADOOP_INSTALL/hadoop/lib/*.jar; do
+  CLASSPATH=${CLASSPATH}:$f;
+done
+
+for f in $HADOOP_INSTALL/hadoop//lib/jetty-ext/*.jar; do
+  CLASSPATH=${CLASSPATH}:$f;
+done
+
+#
+HADOOP_OPTS="$HADOOP_OPTS -Dhadoop.log.dir=$HADOOP_LOG_DIR"
+HADOOP_OPTS="$HADOOP_OPTS -Dhadoop.log.file=$HADOOP_LOGFILE"
+HADOOP_OPTS="$HADOOP_OPTS -Dhadoop.home.dir=$HADOOP_HOME"
+HADOOP_OPTS="$HADOOP_OPTS -Dhadoop.id.str=$HADOOP_IDENT_STRING"
+HADOOP_OPTS="$HADOOP_OPTS -Dhadoop.root.logger=${HADOOP_ROOT_LOGGER:-INFO,console}"
+if [ "x$JAVA_LIBRARY_PATH" != "x" ]; then
+  HADOOP_OPTS="$HADOOP_OPTS -Djava.library.path=$JAVA_LIBRARY_PATH"
+fi  
+
+exec java  -Xmx2000m -classpath "$CLASSPATH" RunGui "$@"

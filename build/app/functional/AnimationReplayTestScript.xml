@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript desc="AnimationReplayTestScript">
+  <!-- Component references -->
+  <component class="javax.swing.JMenu" icon="Images%5cExample.png" id="Example nets" index="10" parent="JPopupMenu Instance" text="Example nets" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JMenu" id="File" index="0" parent="JMenuBar Instance" text="File" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 4" />
+  <component class="pipe.gui.GuiView" id="GuiView Instance" index="0" parent="JViewport Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cAnimation%20mode.png" id="Images%5cAnimation%20mode.png" index="19" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JButton" icon="Images%5cBack.png" id="Images%5cBack.png" index="20" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JButton" icon="Images%5cForward.png" id="Images%5cForward.png" index="21" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="3" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="1" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="File" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 2" index="0" invoker="Example nets" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JScrollPane" id="JScrollPane Instance" index="1" parent="JTabbedPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JSplitPane" id="JSplitPane Instance" index="2" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JTabbedPane" id="JTabbedPane Instance" index="1" parent="JSplitPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JToolBar" id="JToolBar Instance" index="1" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JViewport" id="JViewport Instance" index="0" parent="JScrollPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="pipe.dataLayer.Place" id="P0" index="32" name="P0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P1" index="33" name="P1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P2" index="34" name="P2" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P3" index="35" name="P3" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P4" index="36" name="P4" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P6" index="38" name="P6" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P7" index="39" name="P7" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 4" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 6" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JMenuItem" icon="Images%5cNet.png" id="Producer &amp; Consumer.xml" index="7" parent="JPopupMenu Instance 2" text="Producer &amp; Consumer.xml" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 6" />
+  <component class="pipe.dataLayer.Transition" id="T0" index="40" name="T0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="pipe.dataLayer.Transition" id="T1" index="41" name="T1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="pipe.dataLayer.Transition" id="T2" index="42" name="T2" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="pipe.dataLayer.Transition" id="T3" index="43" name="T3" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="pipe.dataLayer.Transition" id="T4" index="44" name="T4" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="pipe.dataLayer.Transition" id="T5" index="45" name="T5" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <launch args="[]" class="RunGui" classpath="" method="main" />
+  <!-- Robot actions start here -->
+  <sequence>
+  <!-- Open a file -->
+    <action args="Producer &amp; Consumer.xml" method="actionSelectMenuItem" />
+    <action args="Images%5cAnimation%20mode.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <!-- First fire a sequence of transitions manually, and check that component colours and numbers of tokens -->
+    <!-- behave as required -->
+    <action args="T0,(19%2c20)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <call args="P0 after first firing of T0,P0,0" class="pipe.gui.FunctionalScriptsTest" desc="assertNumberOfTokensInPlace(P0 after first firing of T0,P0,)" method="assertNumberOfTokensInPlace" />
+    <call args="P6 after T0 firing 1,P6,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P1 after T0 firing 1,P1,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P7 after T0 firing 1,P7,2" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="T3 after manual firing of T0 in step 1,T3,ENABLED_TRANSITION_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="T0 after manual firing of T0 in step 1,T0,ELEMENT_LINE_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <action args="T3,(20%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <call args="T4 after manual firing of T3 in step 2,T4,ENABLED_TRANSITION_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="T3 after manual firing of T3 in step 2,T3,ELEMENT_LINE_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <action args="T1,(17%2c21)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <call args="P3 after 1st manual firing of T1,P3,0" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P4 after 1st manual firing of T1,P4,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P6 after 1st manual firing of T1,P6,0" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P7 after first manual firing of T1,P7,3" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <action args="T2,(20%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="T5,(15%2c20)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="T4,(22%2c21)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <!-- Now rewind firing sequence using the "step back" button, and check colours and tokens again -->
+    <action args="Images%5cBack.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <call args="T0 after first press of back button,T0,ELEMENT_LINE_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="T4 after first press of back button,T4,ENABLED_TRANSITION_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="P0 after first press of back button,P0,0" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P2 after first press of back button,P2,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <action args="Images%5cBack.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cBack.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cBack.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cBack.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cBack.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <!-- Finally play the sequence again using the "step forward" button and repeat checks -->
+    <action args="Images%5cForward.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <call args=" T0 after first firing of T0 by forward button,T0,ELEMENT_LINE_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="T3 after first firing of T0 by forward button,T3,ENABLED_TRANSITION_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="T1 after first firing of T0 by forward button,T1,ENABLED_TRANSITION_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="P0 after first firing of T0,P0,0" class="pipe.gui.FunctionalScriptsTest" desc="assertNumberOfTokensInPlace(P0 after first firing of T0,P0,)" method="assertNumberOfTokensInPlace" />
+    <call args="P6 after T0 firing 1,P6,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P1 after T0 firing 1,P1,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P7 after T0 firing 1,P7,2" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <action args="Images%5cForward.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cForward.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cForward.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cForward.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cForward.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <call args="T0 after last press of forward button,T0,ENABLED_TRANSITION_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="T4 after last press of forward button,T4,ELEMENT_LINE_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <call args="P0 after last press of forward button,P0,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <call args="P2 after last press of forward button,P2,0" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+

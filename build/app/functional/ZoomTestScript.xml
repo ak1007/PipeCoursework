@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript desc="ZoomScript">
+  <component class="javax.swing.JMenuItem" id="80%" index="2" parent="JPopupMenu Instance 4" text="80%" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JToggleButton" icon="Arc.png" id="Arc.png" index="11" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JMenuItem" icon="Net.png" id="ClassicGSPN.xml" index="0" parent="JPopupMenu Instance 2" text="ClassicGSPN.xml" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 6" />
+  <component class="javax.swing.JToggleButton" icon="Drag.png" id="Drag.png" index="28" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JMenu" icon="Example.png" id="Example nets" index="10" parent="JPopupMenu Instance" text="Example nets" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JMenu" id="File" index="0" parent="JMenuBar Instance" text="File" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.gui.GuiView" id="GuiView Instance" index="0" parent="JViewport Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JComboBox" id="JComboBox Instance" index="26" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="3" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="1" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 6" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="File" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 2" index="0" invoker="Example nets" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 3" index="0" invoker="View" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 4" index="0" invoker="Zoom" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" />
+  <component class="javax.swing.JScrollBar" id="JScrollBar Instance" index="2" parent="JScrollPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JScrollBar" id="JScrollBar Instance 2" index="1" parent="JScrollPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JScrollPane" id="JScrollPane Instance" index="1" parent="JTabbedPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JSplitPane" id="JSplitPane Instance" index="2" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JTabbedPane" id="JTabbedPane Instance" index="1" parent="JSplitPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JTextField" id="JTextField Instance" index="2" parent="JComboBox Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JToolBar" id="JToolBar Instance" index="1" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 6" />
+  <component class="javax.swing.JViewport" id="JViewport Instance" index="0" parent="JScrollPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.dataLayer.Place" id="P0" index="14" name="P0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.dataLayer.Place" id="P1" index="13" name="P1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.dataLayer.Place" id="P2" index="16" name="P2" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.dataLayer.Place" id="P3" index="18" name="P3" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" root="true" title="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 2" root="true" title="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 3" root="true" title="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" root="true" title="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 5" root="true" title="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 6" root="true" title="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml" />
+  <component class="javax.swing.JToggleButton" icon="Place.png" id="Place.png" index="8" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JToggleButton" icon="Select.png" id="Select.png" index="15" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.gui.SelectionObject" id="SelectionObject Instance" index="42" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="pipe.dataLayer.Transition" id="T1" index="16" name="T1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JMenu" id="View" index="1" parent="JMenuBar Instance" text="View" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JMenu" icon="Zoom.png" id="Zoom" index="1" parent="JPopupMenu Instance 3" text="Zoom" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JButton" icon="Zoom%20in.png" id="Zoom%20in.png" index="25" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2.2: New Petri net 1.xml 6" />
+  <launch args="[]" class="RunGui" classpath="" method="main" />
+  <sequence>
+    <action args="ClassicGSPN.xml" method="actionSelectMenuItem" />
+    <action args="Zoom%20in.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Zoom%20in.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Zoom%20in.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <assert component="P1" method="getWidth" value="49" />
+    <action args="Place.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="GuiView Instance,(539%2c371)" class="pipe.gui.GuiView" method="actionClick" />
+    <assert component="P3" method="getWidth" value="49" />
+    <action args="Arc.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="T1,(20%2c20)" method="actionClick" />
+    <action args="P3,(21%2c27)" class="pipe.dataLayer.Place" method="actionClick" />
+    <assert component="JComboBox Instance" method="getSelectedItem" value="130%" />
+    <action args="80%" method="actionSelectMenuItem" />
+    <assert component="P3" method="getWidth" value="34" />
+    <assert component="P1" method="getWidth" value="34" />
+    <assert component="JComboBox Instance" method="getSelectedItem" value="80%" />
+    <action args="Drag.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="GuiView Instance,(721%2c617)" class="pipe.gui.GuiView" method="actionDrag" />
+    <action args="GuiView Instance,(639%2c523)" class="pipe.gui.GuiView" method="actionDrop" />
+    <action args="Select.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="SelectionObject Instance,(363%2c317)" class="pipe.gui.SelectionObject" method="actionDrag" />
+    <action args="SelectionObject Instance,(98%2c94)" class="pipe.gui.SelectionObject" method="actionDrop" />
+    <action args="P2,(16%2c20)" class="pipe.dataLayer.Place" method="actionDrag" />
+    <action args="SelectionObject Instance,(480%2c500)" class="pipe.dataLayer.Place" method="actionDrop" />
+    <action args="SelectionObject Instance,(473%2c461)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <action args="JTextField Instance,3" class="javax.swing.text.JTextComponent" method="actionClick" />
+    <action args="JTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="JTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="JTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="JTextField Instance,VK_NUMPAD2" method="actionKeyStroke" />
+    <action args="JTextField Instance,VK_NUMPAD0" method="actionKeyStroke" />
+    <action args="JTextField Instance,VK_NUMPAD0" method="actionKeyStroke" />
+    <action args="JTextField Instance,notify-field-accept" class="javax.swing.JComponent" method="actionActionMap" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+

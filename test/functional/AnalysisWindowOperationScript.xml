@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript desc="AnalysisWindowOperationScript">
+  <component class="javax.swing.JMenuItem" icon="Images%5cNet.png" id="ClassicGSPN.xml" index="0" parent="JPopupMenu Instance 2" text="ClassicGSPN.xml" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 6" />
+  <component class="javax.swing.JMenu" id="Draw" index="2" parent="JMenuBar Instance" text="Draw" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JMenu" icon="Images%5cExample.png" id="Example nets" index="10" parent="JPopupMenu Instance" text="Example nets" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JMenu" id="File" index="0" parent="JMenuBar Instance" text="File" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 4" />
+  <component class="pipe.gui.GuiView" id="GuiView Instance" index="0" parent="JViewport Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cArc.png" id="Images%5cArc.png" index="11" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JButton" icon="Images%5cClose.png" id="Images%5cClose.png" index="4" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cImmediate%20transition.png" id="Images%5cImmediate%20transition.png" index="9" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cPlace.png" id="Images%5cPlace.png" index="8" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JDialog" id="Invariant Analysis" parent="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" title="Invariant Analysis" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance 2" index="1" parent="JRootPane Instance 2" window="Invariant Analysis" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="3" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 2" index="0" parent="JLayeredPane Instance 2" window="Invariant Analysis" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="File" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 2" index="0" invoker="Example nets" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance 2" index="0" parent="Invariant Analysis" />
+  <component class="javax.swing.JScrollPane" id="JScrollPane Instance" index="0" parent="JTabbedPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JSplitPane" id="JSplitPane Instance" index="2" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JSplitPane" id="JSplitPane Instance 2" index="0" parent="JSplitPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JTabbedPane" id="JTabbedPane Instance" index="1" parent="JSplitPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToolBar" id="JToolBar Instance" index="1" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JTree" id="JTree Instance" index="0" parent="JSplitPane Instance 2" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JViewport" id="JViewport Instance" index="0" parent="JScrollPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P0" index="0" name="P0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P1" index="3" name="P1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 4" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 6" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component borderTitle="Source net" class="pipe.gui.widgets.PetriNetChooserPanel" id="PetriNetChooserPanel Instance" index="0" parent="JPanel Instance 2" window="Invariant Analysis" />
+  <component class="pipe.dataLayer.Transition" id="T0" index="3" name="T0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Transition" id="T1" index="9" name="T1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JCheckBox" id="Use current net" index="0" parent="PetriNetChooserPanel Instance" text="Use current net" window="Invariant Analysis" />
+  <launch args="[]" class="RunGui" classpath="" method="main" />
+  <sequence>
+    <!--Open an example file and then try to open one of the analysis modules from the module tree. Check it opens, then close it.-->
+    <action args="ClassicGSPN.xml" method="actionSelectMenuItem" />
+    <action args="JTree Instance,&quot;[Analysis Module Manager, Available Modules, Invariant Analysis]&quot;,BUTTON1_MASK,2" class="javax.swing.JTree" method="actionClick" />
+    <wait args="Invariant Analysis" class="abbot.tester.ComponentTester" method="assertComponentShowing" timeout="1000" />
+    <action args="Invariant Analysis" class="abbot.tester.WindowTester" method="actionClose" />
+    <action args="Images%5cClose.png" class="abbot.tester.AbstractButtonTester" method="actionClick" />
+    <!--Next, draw a new net and try to open an anlysis module for it. Check it opens then close it.-->
+    <action args="Images%5cPlace.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="GuiView Instance,(139%2c119)" class="pipe.gui.GuiView" method="actionDrag" />
+    <event component="GuiView Instance" kind="MOUSE_RELEASED" type="MouseEvent" x="139" y="119" />
+    <action args="GuiView Instance,(355%2c120)" class="pipe.gui.GuiView" method="actionDrag" />
+    <event component="GuiView Instance" kind="MOUSE_RELEASED" type="MouseEvent" x="355" y="120" />
+    <action args="Images%5cArc.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cImmediate%20transition.png" class="abbot.tester.AbstractButtonTester" method="actionClick" />
+    <action args="GuiView Instance,(225%2c87)" class="pipe.gui.GuiView" method="actionDrag" />
+    <event component="GuiView Instance" kind="MOUSE_RELEASED" type="MouseEvent" x="225" y="87" />
+    <action args="GuiView Instance,(225%2c196)" class="pipe.gui.GuiView" method="actionDrag" />
+    <event component="GuiView Instance" kind="MOUSE_RELEASED" type="MouseEvent" x="315" y="196" />
+    <action args="Images%5cPlace.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cArc.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="P0,(19%2c20)" class="pipe.dataLayer.Place" method="actionClick" />
+    <action args="T0,(18%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="T0,(19%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="P1,(19%2c20)" class="pipe.dataLayer.Place" method="actionClick" />
+    <action args="P1,(19%2c20)" class="pipe.dataLayer.Place" method="actionClick" />
+    <action args="T1,(18%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="T1,(19%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="P0,(19%2c20)" class="pipe.dataLayer.Place" method="actionClick" />
+    <action args="JTree Instance,&quot;[Analysis Module Manager, Available Modules, Invariant Analysis]&quot;,BUTTON1_MASK,2" class="javax.swing.JTree" method="actionClick" />
+    <wait args="Invariant Analysis" class="abbot.tester.ComponentTester" method="assertComponentShowing" timeout="1000" />
+    <action args="Invariant Analysis" class="abbot.tester.WindowTester" method="actionClose" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+

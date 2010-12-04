@@ -1,0 +1,17 @@
+digraph reachability_graph {
+rankdir=TB;
+node[shape=circle];
+0 [label="S0 "tip="{5,0,3,2,0}", color=red];
+1 [label="S1 "tip="{5,0,0,1,1}", color=red];
+2 [label="S2 "tip="{4,1,2,2,0}", color=red];
+3 [label="S3 "tip="{3,2,1,2,0}", color=red];
+4 [label="S4 "tip="{2,3,0,2,0}", color=red];
+0 -> 1[ label = "T2"];
+0 -> 2[ label = "T0"];
+1 -> 0[ label = "T3"];
+2 -> 0[ label = "T1"];
+2 -> 3[ label = "T0"];
+3 -> 2[ label = "T1"];
+3 -> 4[ label = "T0"];
+4 -> 3[ label = "T1"];
+}

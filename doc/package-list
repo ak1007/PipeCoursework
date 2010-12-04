@@ -1,0 +1,16 @@
+
+jama
+jama.util
+pipe.dataLayer
+pipe.dataLayer.calculations
+pipe.gui
+pipe.gui.widgets
+pipe.modules
+pipe.modules.classification
+pipe.modules.comparison
+pipe.modules.dnamaca
+pipe.modules.gspn
+pipe.modules.invariantAnalysis
+pipe.modules.matrixes
+pipe.modules.simulation
+pipe.modules.stateSpace

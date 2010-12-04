@@ -1,0 +1,46 @@
+If you have previously set up the Pipe project in Eclipse, using the 
+instructions in readme.eclipse.txt, follow these steps to convert to the 
+new project configuration:
+
+1. Check out all new files by Updating the project through CVS.
+
+2. Go to Project->Properties and click on Java Build Path. 
+   
+3. On the Source tab click Add Folder..., check the 'test' directory and click OK. 
+   
+4. Also on the Source tab:
+          - change the Default output folder to "pipe/build/app"
+          - check the "Allow output folders for source folders" box
+          - expand the pipe/test entry in the list of source folders,
+          click on the "Output folder:" for this source folder and click
+          the Edit... button. Select the "Specific output folder" option 
+          and enter "build/test" in the box. Click OK.
+
+5. On the Libraries tab, click Add JARs...Select junit.jar and abbot.jar
+   from the pipe/test/lib directory and click OK. Click OK.
+
+6. Add the build folder to .cvsignore.
+
+That's all you need to do to run the build and tests directly from Eclipse. If you
+want to run the build, the tests or any other options using the Ant build script,
+you also need to:
+
+1. Go to Window->Preferences, then Ant->Runtime and click on the Global Entries
+   line in the Classpath tab. Now click Add Jars.. and add junit.jar, xalan.jar
+   and serializer.jar from the pipe/test/lib directory and click OK. Click OK.
+
+2. Do Window->Show View->Ant.
+
+3. Right click within the Ant view and click on Add Buildfiles... Expand the 
+   pipe folder, select build.xml and click OK.
+   
+4. Select the 'test' target in the Ant view and click the Run selected target
+   button (white arrow in green cirle on the Ant button bar). Ant should build
+   Pipe and run all tests. The results of the tests will be listed in a Console
+   window. The Pipe application will appear and disappear several times during 
+   the tests.
+   
+5. Select the 'run' Ant target and click the Run selected target button. Ant
+    should build and run Pipe.
+
+Other options include compile only and Javadoc.

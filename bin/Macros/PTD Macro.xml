@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptml>
+<macro name="PTD Macro" description="Passage Time Density Macro" returntype="Probability density function">
+<tree>
+<node id="Macro Node 1" type="Macro" operation="" label="" x="510.0" y="30.0">
+<incomingArc></incomingArc>
+<outgoingArcs>
+<arc id="Macro Arc 1" label="query" source="Macro Node 1" target="Macro Node 2" required="true" startX="509.4940490722656" startY="46.217376708984375" endX="452.9590759277344" endY="179.52630615234375">
+<arcpathpoint id="000" type="false" x="505" y="42"/>
+<arcpathpoint id="001" type="false" x="448" y="175"/>
+</arc>
+</outgoingArcs>
+<childNodes>
+<node id="Macro Node 2" type="PassageTimeDensity" operation="" label="" x="420.0" y="180.0">
+<incomingArc>Macro Arc 1</incomingArc>
+<outgoingArcs>
+<arc id="Macro Arc 2" label="start states" source="Macro Node 2" target="Macro Node 3" required="true" startX="419.4940490722656" startY="196.21737670898438" endX="274.451171875" endY="303.7811279296875">
+<arcpathpoint id="000" type="false" x="415" y="192"/>
+<arcpathpoint id="001" type="false" x="270" y="299"/>
+</arc>
+<arc id="Macro Arc 3" label="target states" source="Macro Node 2" target="Macro Node 4" required="true" startX="452.0394287109375" startY="214.52850341796875" endX="422.9590759277344" endY="314.52630615234375">
+<arcpathpoint id="000" type="false" x="448" y="210"/>
+<arcpathpoint id="001" type="false" x="418" y="310"/>
+</arc>
+<arc id="Macro Arc 4" label="excluded states" source="Macro Node 2" target="" required="false" startX="484.451171875" startY="198.78111267089844" endX="615.0" endY="267.5">
+<arcpathpoint id="000" type="false" x="480" y="194"/>
+<arcpathpoint id="001" type="false" x="611" y="263"/>
+</arc>
+</outgoingArcs>
+<childNodes>
+<node id="Macro Node 3" type="Argument" operation="" label="start" x="210.0" y="285.0">
+<incomingArc>Macro Arc 2</incomingArc>
+</node>
+<node id="Macro Node 4" type="Argument" operation="" label="target" x="390.0" y="315.0">
+<incomingArc>Macro Arc 3</incomingArc>
+</node>
+</childNodes>
+</node>
+</childNodes>
+</node>
+</tree>
+<stateLabels/>
+<actionLabels/>
+</macro>
+</ptml>

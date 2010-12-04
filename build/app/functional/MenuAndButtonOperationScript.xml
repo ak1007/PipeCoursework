@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript desc="pipe01">
+  <component class="pipe.dataLayer.NameLabel" id="2" index="12" parent="GuiView Instance" text="2" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JMenu" id="Animate" index="3" parent="JMenuBar Instance" text="Animate" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="pipe.dataLayer.Arc" id="Arc Instance" index="14" parent="GuiView Instance" tag="145116false230116false" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Arc" id="Arc Instance 2" index="15" parent="GuiView Instance" tag="240116false296191true362128true" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Arc" id="Arc Instance 3" index="16" parent="GuiView Instance" tag="385116false455116false" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Arc" id="Arc Instance 4" index="17" parent="GuiView Instance" tag="465116false581116false" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Arc" id="Arc Instance 5" index="24" parent="GuiView Instance" tag="602143false461236true371116false206206false191221false" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.ArcPathPoint" id="ArcPathPoint Instance" index="6" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.ArcPathPoint" id="ArcPathPoint Instance 2" index="7" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JButton" id="Cancel" index="1" name="OptionPane.button" parent="JPanel Instance 5" text="Cancel" window="Input" />
+  <component class="javax.swing.JMenu" id="Draw" index="2" parent="JMenuBar Instance" text="Draw" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="pipe.gui.GuiView" id="GuiView Instance" index="0" parent="JViewport Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cAdd%20token.png" id="Images%5cAdd%20token.png" index="13" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cAnimation%20mode.png" id="Images%5cAnimation%20mode.png" index="19" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cArc.png" id="Images%5cArc.png" index="11" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JButton" icon="Images%5cClose.png" id="Images%5cClose.png" index="4" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cDelete%20token.png" id="Images%5cDelete%20token.png" index="14" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cImmediate%20transition.png" id="Images%5cImmediate%20transition.png" index="9" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JButton" icon="Images%5cNew.png" id="Images%5cNew.png" index="0" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cPlace.png" id="Images%5cPlace.png" index="8" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JButton" icon="Images%5cPrint.png" id="Images%5cPrint.png" index="6" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JButton" icon="Images%5cSave%20as.png" id="Images%5cSave%20as.png" index="3" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cSelect.png" id="Images%5cSelect.png" index="15" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JToggleButton" icon="Images%5cTimed%20transition.png" id="Images%5cTimed%20transition.png" index="10" parent="JToolBar Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JMenuItem" icon="Images%5cImmediate%20transition.png" id="Immediate transition" index="1" parent="JPopupMenu Instance" text="Immediate transition" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JDialog" id="Input" parent="shared frame" title="Input" />
+  <component class="javax.swing.JDialog" id="Invalid entry" parent="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" title="Invalid entry" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance 2" index="1" parent="JRootPane Instance 2" window="Input" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="1" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JOptionPane" id="JOptionPane Instance" index="0" parent="JPanel Instance 2" window="Input" />
+  <component class="javax.swing.JPanel" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 2" index="0" parent="JLayeredPane Instance 2" window="Input" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 3" index="0" parent="JOptionPane Instance" window="Input" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 4" index="1" name="OptionPane.body" parent="JPanel Instance 6" window="Input" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 5" index="1" name="OptionPane.buttonArea" parent="JOptionPane Instance" window="Input" />
+  <component class="javax.swing.JPanel" id="JPanel Instance 6" index="0" name="OptionPane.realBody" parent="JPanel Instance 3" window="Input" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="Draw" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance 2" index="0" parent="Input" />
+  <component class="javax.swing.JScrollPane" id="JScrollPane Instance" index="0" parent="JTabbedPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JSplitPane" id="JSplitPane Instance" index="2" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JSplitPane" id="JSplitPane Instance 2" index="0" parent="JSplitPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JTabbedPane" id="JTabbedPane Instance" index="1" parent="JSplitPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JTextField" id="JTextField Instance" index="1" name="OptionPane.textField" parent="JPanel Instance 4" window="Input" />
+  <component class="javax.swing.JToolBar" id="JToolBar Instance" index="1" parent="JPanel Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 4" />
+  <component class="javax.swing.JTree" id="JTree Instance" index="0" parent="JSplitPane Instance 2" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.JViewport" id="JViewport Instance" index="0" parent="JScrollPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JButton" id="OK" index="0" name="OptionPane.button" parent="JPanel Instance 5" text="OK" window="Input" />
+  <component class="pipe.dataLayer.Place" id="P0" index="0" name="P0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P1" index="1" name="P1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Place" id="P2" index="2" name="P2" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 4" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="pipe.gui.GuiFrame" id="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 5" root="true" title="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml" />
+  <component class="javax.swing.JMenuItem" icon="Images%5cPlace.png" id="Place" index="0" parent="JPopupMenu Instance" text="Place" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="pipe.gui.SelectionObject" id="SelectionObject Instance" index="0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="pipe.dataLayer.Transition" id="T0" index="1" name="T0" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.Transition" id="T1" index="4" name="T1" parent="GuiView Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="pipe.dataLayer.NameLabel" id="The last place" index="19" parent="GuiView Instance" text="The last place" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <component class="com.sun.java.swing.plaf.windows.WindowsSplitPaneDivider" id="WindowsSplitPaneDivider Instance" index="2" parent="JSplitPane Instance" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 3" />
+  <component class="javax.swing.SwingUtilities$SharedOwnerFrame" id="shared frame" root="true" title="" />
+  <component class="pipe.dataLayer.NameLabel" id="wake up" index="21" parent="GuiView Instance" text="wake up" window="PIPE2: Platform Independent Petri Net Editor 2: New Petri net 1.xml 2" />
+  <!-- These are the definitions of the specific components that the script drives -->
+  <!-- Now the actions begin -->
+  <launch args="[]" class="RunGui" classpath="" method="main" />
+  <sequence>
+    <!-- Check that "Select" button is depressed at startup -->
+    <assert component="Images%5cSelect.png" method="isEnabled" />
+    <assert component="Images%5cSelect.png" method="isSelected" />
+    <!-- Click Place option on the Draw menu and check that Place button reflects change -->
+    <action args="Place" method="actionSelectMenuItem" />
+    <assert component="Images%5cPlace.png" method="isSelected" />
+    <!-- Click three times on drawing area and check we now have three places -->
+    <action args="GuiView Instance,(139%2c122)" class="pipe.gui.GuiView" method="actionDrag" />
+    <event component="GuiView Instance" kind="MOUSE_RELEASED" type="MouseEvent" x="139" y="122" />
+    <assert component="P0" method="isVisible" />
+    <action args="GuiView Instance,(370%2c117)" class="pipe.gui.GuiView" method="actionDrag" />
+    <event component="GuiView Instance" kind="MOUSE_RELEASED" type="MouseEvent" x="370" y="117" />
+    <assert component="P1" method="isVisible" />
+    <action args="GuiView Instance,(600%2c119)" class="pipe.gui.GuiView" method="actionClick" />
+    <assert component="P2" method="isVisible" />
+    <!-- Change to transition mode and check that transition button reflects
+	this. NOTE - It seems that Abbot can't manage to  do a menu click after 
+	a drawing area click in Linux, so we click the Select button in between
+	to make it work. Obviously this isn't necessary in the real app (or for 
+	Abbot on Windows) but it's not a problem either  -->
+    <action args="Images%5cSelect.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Immediate transition" method="actionSelectMenuItem" />
+    <assert component="Images%5cImmediate%20transition.png" method="isSelected" />
+    <!-- Click on drawing area and confirm we now have a transition -->
+    <action args="GuiView Instance,(247%2c122)" class="pipe.gui.GuiView" method="actionClick" />
+    <assert component="T0" method="isVisible" />
+    <!-- Click on  Timed Transition button to change mode again and add one of those-->
+    <action args="Images%5cTimed%20transition.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="GuiView Instance,(472%2c119)" class="pipe.gui.GuiView" method="actionClick" />
+    <assert args="T1" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <!-- Click on places and transitions and confirm we have four arcs -->
+    <action args="Images%5cArc.png" class="abbot.tester.AbstractButtonTester" method="actionClick" />
+    <action args="P0,(19%2c20)" class="pipe.dataLayer.Place" method="actionClick" />
+    <action args="T0,(18%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="T0,(19%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="GuiView Instance,(300%2c188),BUTTON1_MASK|SHIFT_MASK" class="pipe.gui.GuiView" method="actionClick" />
+    <action args="P1,(27%2c23),BUTTON1_MASK|SHIFT_MASK" class="pipe.dataLayer.Place" method="actionClick" />
+    <action args="P1,(19%2c20)" class="pipe.dataLayer.Place" method="actionClick" />
+    <action args="T1,(18%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="T1,(19%2c19)" class="pipe.dataLayer.Transition" method="actionClick" />
+    <action args="P2,(19%2c20)" class="pipe.dataLayer.Place" method="actionClick" />
+    <assert args="Arc Instance" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <assert args="Arc Instance 2" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <assert args="Arc Instance 3" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <assert args="Arc Instance 4" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <!--Next, start adding an arc, and then hit Escape. Confirm arc not created.-->
+    <action args="P2" method="actionClick" />
+    <action args="GuiView Instance,(466%2c236),BUTTON1_MASK|SHIFT_MASK" class="pipe.gui.GuiView" method="actionClick" />
+    <action args="GuiView Instance,(375%2c123)" class="pipe.gui.GuiView" method="actionClick" />
+    <action args="GuiView Instance,(206%2c203)" class="pipe.gui.GuiView" method="actionClick" />
+    <action args="Arc Instance 5,VK_ESCAPE" class="pipe.dataLayer.Arc" method="actionKeyStroke" />
+    <assert args="Arc Instance 5" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <!--Click Add Tokens button, click P0 twice and confirm we have added two tokens-->
+    <action args="Images%5cAdd%20token.png" class="abbot.tester.AbstractButtonTester" method="actionClick" />
+    <action args="P0" class="abbot.tester.AbstractButtonTester" method="actionClick" />
+    <action args="P0" class="abbot.tester.AbstractButtonTester" method="actionClick" />
+    <call args="P0 should have 2 tokens,P0,2" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <!--Use context menu to change weight of second arc (T0 to P1) to 2-->
+    <action args="Arc Instance 2,(73%2c53),Edit Weight" class="pipe.dataLayer.Arc" method="actionSelectPopupMenuItem" />
+    <wait args="Input" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JTextField Instance,VK_BACK_SPACE" class="abbot.tester.ComponentTester" method="actionKeyStroke" />
+    <action args="JTextField Instance,2" method="actionKeyString" />
+    <action args="JTextField Instance,VK_ENTER" method="actionKeyStroke" />
+    <wait args="Input" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <assert args="2" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <!--Use context menu to add a token to P1-->
+    <action args="P1,(19%2c24),Edit Tokens" class="pipe.dataLayer.Place" method="actionSelectPopupMenuItem" />
+    <wait args="Input" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JTextField Instance,VK_BACK_SPACE" method="actionKeyStroke" />
+    <action args="JTextField Instance,1" method="actionKeyString" />
+    <action args="JTextField Instance,VK_ENTER" method="actionKeyStroke" />
+    <call args="P1 incorrect tokens after popup menu edit,P1,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <!--Click the Delete Tokens button, click place P0 and confirm it now has 1 token-->
+    <action args="Images%5cDelete%20token.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="P0,(23%2c24)" class="pipe.dataLayer.Place" method="actionClick" />
+    <call args="P0 after removing a token in delete token mode,P0,1" class="pipe.gui.FunctionalScriptsTest" method="assertNumberOfTokensInPlace" />
+    <!--Right click on place P2, select Edit Label and change it to "The last place"-->
+    <action args="P2,(22%2c22),Edit label" class="pipe.dataLayer.Place" method="actionSelectPopupMenuItem" />
+    <wait args="Input" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JTextField Instance,2" class="javax.swing.text.JTextComponent" method="actionClick" />
+    <action args="JTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="JTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="JTextField Instance,The last place" method="actionKeyString" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Input" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <assert args="The last place" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <assert component="The last place" method="getText" value="The last place" />
+    <!--Now use context menu to rotate transition T1 and see if it is selected by clicking at various points around it-->
+    <action args="Images%5cSelect.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="T1,(19%2c20),+45°" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <action args="SelectionObject Instance,(300%2c55)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <action args="SelectionObject Instance,(466%2c106)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <assert component="T1" invert="true" method="isSelected" />
+    <action args="T1,(22%2c15),+45°" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <action args="SelectionObject Instance,(350%2c42)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <action args="SelectionObject Instance,(466%2c111)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <action args="SelectionObject Instance,(465%2c129)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <assert component="T1" invert="true" method="isSelected" />
+    <action args="T1,(25%2c21),±90°" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <action args="SelectionObject Instance,(457%2c75)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <action args="SelectionObject Instance,(479%2c123)" method="actionClick" />
+    <assert component="T1" method="isSelected" />
+    <action args="SelectionObject Instance,(366%2c66)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <!--Now change the label of T1-->
+    <action args="T1,(20%2c23),Edit label" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <wait args="Input" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JTextField Instance,wake up" method="actionKeyString" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Input" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <assert args="wake up" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <assert component="wake up" method="getText" value="wake up" />
+    <!--Then use popup to "disable timing" for T1/wakeup and check that it is now solid black-->
+    <action args="T1,(21%2c12),Disable Timing" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <action args="SelectionObject Instance,(260%2c76)" method="actionClick" />
+    <!--And do the reverse for T0-->
+    <action args="T0,(19%2c23),Enable Timing" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <action args="SelectionObject Instance,(260%2c76)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <call args="T0 should be white after timing is enabled,T0,ELEMENT_FILL_COLOUR" class="pipe.gui.FunctionalScriptsTest" method="assertComponentIsPaintedCorrectColor" />
+    <!--use the context menu to set the firing rate of T0-->
+    <action args="T0,(19%2c27),Set rate" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <wait args="Input" class="abbot.tester.ComponentTester" method="assertComponentShowing" />
+    <action args="JTextField Instance,delete-previous" class="javax.swing.JComponent" method="actionActionMap" />
+    <action args="JTextField Instance,4" method="actionKeyString" />
+    <action args="OK" class="javax.swing.AbstractButton" method="actionClick" />
+    <wait args="Input" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <action args="SelectionObject Instance,(308%2c74)" class="pipe.gui.SelectionObject" method="actionClick" />
+    <!--Click on the arc from P0 to T0 and hit the delete key, then check that the arc and the weight label have disappeared-->
+    <action args="Arc Instance 2,(61%2c59)" class="pipe.dataLayer.Arc" method="actionClick" />
+    <action args="Images%5cSelect.png,VK_DELETE" method="actionKeyStroke" />
+    <assert args="Arc Instance 2" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <assert args="2" class="abbot.tester.ComponentTester" invert="true" method="assertComponentShowing" />
+    <!--use the context menu to delete T0 and check that the transition and the arc from P0 have disappeared.-->
+    <action args="T0,(21%2c22),Delete" class="pipe.dataLayer.Transition" method="actionSelectPopupMenuItem" />
+    <action args="Images%5cSelect.png" method="actionClick" />
+    <action args="Images%5cAnimation%20mode.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <action args="Images%5cAnimation%20mode.png" class="javax.swing.AbstractButton" method="actionClick" />
+    <assert component="Images%5cSelect.png" method="isSelected" />
+    <assert component="Images%5cSelect.png" method="isEnabled" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+
