@@ -26,8 +26,8 @@ import pipe.gui.CreateGui;
 import pipe.gui.widgets.ButtonBar;
 import pipe.gui.widgets.GraphPanelPane;
 import pipe.gui.widgets.ResultsHTMLPane;
-import pipe.modules.Common;
 import pipe.modules.Module;
+import pipe.modules.clientCommon.CommonMethods;
 
 public class DnamacaTagged implements Module{
 
@@ -237,7 +237,7 @@ public class DnamacaTagged implements Module{
 					modString += "\t\\statemeasure{Probability of having tagged token on place " + places[i].getId() + "}{\n";
 					modString += "\t\t\\estimator{mean}\n";
 					modString += "\t\t\\expression{" + places[i].getId() + " > 0" +
-							" && tagged_location == "+ Common.getPlaceIndex(places[i].getId(), places) +"}\n"; 
+							" && tagged_location == "+ CommonMethods.getPlaceIndex(places[i].getId(), places) +"}\n"; 
 					modString += "\t}\n";		
 				}
 				
@@ -281,7 +281,7 @@ public class DnamacaTagged implements Module{
 			modString += "\t\t\\expression{(";
 			
 			if(type==UNTAGGED) 
-				modString += Common.getTransitionConditions(i, transitions);
+				modString += CommonMethods.getTransitionConditions(i, transitions);
 				
 			else if(type==ORIGINAL) 
 				modString += performanceDesc_original[i];
@@ -370,14 +370,14 @@ public class DnamacaTagged implements Module{
 			  	
 			  	if(taggedArc) 
 			  	{
-			  		Common.writeTransition(ORIGINAL, i, numInputArc, transitions, places, modString,
+			  		CommonMethods.writeTransition(ORIGINAL, i, numInputArc, transitions, places, modString,
 			  				pnmldata, performanceDesc_original, performanceDesc_clone, false);
-			  		Common.writeTransition(CLONED, i, numInputArc, transitions, places, modString,
+			  		CommonMethods.writeTransition(CLONED, i, numInputArc, transitions, places, modString,
 			  				pnmldata, performanceDesc_original, performanceDesc_clone, false);
 			  	}
 			  	else 
 			  	{
-			  		Common.writeTransition(UNTAGGED, i, numInputArc, transitions, places, modString,
+			  		CommonMethods.writeTransition(UNTAGGED, i, numInputArc, transitions, places, modString,
 			  				pnmldata, performanceDesc_original, performanceDesc_clone, false);
 			  	}
 			  		

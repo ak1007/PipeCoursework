@@ -14,6 +14,7 @@ import pipe.common.AnalysisType;
 import pipe.common.SimplePlaces;
 import pipe.common.SimpleTransitions;
 import pipe.common.dataLayer.DataLayer;
+import pipe.modules.clientCommon.ResultsReceiver;
 import pipe.modules.clientCommon.SocketIO;
 
 /**

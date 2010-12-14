@@ -12,7 +12,7 @@ import pipe.common.dataLayer.DataLayer;
 import pipe.common.dataLayer.Place;
 import pipe.common.dataLayer.StateGroup;
 import pipe.common.dataLayer.Transition;
-import pipe.modules.Common;
+import pipe.modules.clientCommon.CommonMethods;
 
 
 
@@ -148,7 +148,7 @@ public class TransModel {
 			
 			modString += "\t\\statemeasure{Enabled probability for transition " + id + "}{\n";
 			modString += "\t\t\\estimator{mean}\n";
-			modString += "\t\t\\expression{(" + Common.getTransitionConditions(i,transitions) + ") ? 1 : 0}\n";
+			modString += "\t\t\\expression{(" + CommonMethods.getTransitionConditions(i,transitions) + ") ? 1 : 0}\n";
 			modString += "\t}\n";
 			
 			modString += "\t\\countmeasure{Throughput for transition " + id + "}{\n";
@@ -221,14 +221,14 @@ public class TransModel {
 			  	
 			  	if(taggedArc) 
 			  	{
-			  		Common.writeTransition(ORIGINAL, i, numInputArc, transitions, places, modString, pnmldata,
+			  		CommonMethods.writeTransition(ORIGINAL, i, numInputArc, transitions, places, modString, pnmldata,
 			  				null, null, true);
-			  		Common.writeTransition(CLONED, i, numInputArc, transitions, places, modString, pnmldata,
+			  		CommonMethods.writeTransition(CLONED, i, numInputArc, transitions, places, modString, pnmldata,
 			  				null, null, true);
 			  	}
 			  	else 
 			  	{
-			  		Common.writeTransition(UNTAGGED, i, numInputArc, transitions, places, modString, pnmldata,
+			  		CommonMethods.writeTransition(UNTAGGED, i, numInputArc, transitions, places, modString, pnmldata,
 			  				null, null, true);
 			  	}
 			  		

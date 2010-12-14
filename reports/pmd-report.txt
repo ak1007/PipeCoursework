@@ -4458,10 +4458,10 @@ src/pipe/common/dataLayer/PNMatrix.java:975	Found 'DU'-anomaly for variable 'B' 
 src/pipe/common/dataLayer/PNMatrix.java:981	New exception is thrown in catch block, original stack trace may be lost
 src/pipe/common/dataLayer/PNMatrix.java:1001	Found 'DD'-anomaly for variable 'B' (lines '1,001'-'1,008').
 src/pipe/common/dataLayer/PNMatrix.java:1014	New exception is thrown in catch block, original stack trace may be lost
-src/pipe/common/dataLayer/PNMatrix.java:1149	Avoid using final local variables, turn them into fields
-src/pipe/common/dataLayer/PNMatrix.java:1171	Avoid using final local variables, turn them into fields
-src/pipe/common/dataLayer/PNMatrix.java:1192	Avoid using final local variables, turn them into fields
-src/pipe/common/dataLayer/PNMatrix.java:1313	Consider simply returning the value vs storing it in local variable 'X'
+src/pipe/common/dataLayer/PNMatrix.java:1150	Avoid using final local variables, turn them into fields
+src/pipe/common/dataLayer/PNMatrix.java:1172	Avoid using final local variables, turn them into fields
+src/pipe/common/dataLayer/PNMatrix.java:1193	Avoid using final local variables, turn them into fields
+src/pipe/common/dataLayer/PNMatrix.java:1314	Consider simply returning the value vs storing it in local variable 'X'
 src/pipe/common/dataLayer/PetriNetObject.java:1	Package name contains upper case characters
 src/pipe/common/dataLayer/PetriNetObject.java:32	Abstract classes should be named AbstractXXX
 src/pipe/common/dataLayer/PetriNetObject.java:33	This class has too many methods, consider refactoring it.
@@ -7529,112 +7529,95 @@ src/pipe/modules/dnamacaTagged/DnamacaTagged.java:19	Avoid unused imports such a
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:19	Avoid unused imports such as 'javax.swing.JTextField'
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:27	Avoid unused imports such as 'pipe.gui.widgets.GraphPanelPane'
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:27	Avoid unused imports such as 'pipe.gui.widgets.GraphPanelPane'
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:31	The class 'DnamacaTagged' has a Cyclomatic Complexity of 5 (Highest = 40).
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:31	This class has too many methods, consider refactoring it.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:31	Too many fields
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:34	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:32	The class 'DnamacaTagged' has a Cyclomatic Complexity of 5 (Highest = 40).
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:32	This class has too many methods, consider refactoring it.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:32	Too many fields
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:35	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:35	It is somewhat confusing to have a field name with the same name as a method
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:36	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:36	It is somewhat confusing to have a field name with the same name as a method
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:37	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:38	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:38	Private field 'tagPlace' could be made final; it is only initialized in the declaration or constructor.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:40	This final field could be made static
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:40	Use explicit scoping instead of the default package private level
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:39	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:39	Private field 'tagPlace' could be made final; it is only initialized in the declaration or constructor.
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:41	This final field could be made static
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:41	Use explicit scoping instead of the default package private level
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:42	This final field could be made static
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:42	Use explicit scoping instead of the default package private level
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:45	Avoid excessively long variable names like performanceDesc_original
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:45	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:46	Avoid excessively long variable names like performanceDesc_clone
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:43	This final field could be made static
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:43	Use explicit scoping instead of the default package private level
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:46	Avoid excessively long variable names like performanceDesc_original
 src/pipe/modules/dnamacaTagged/DnamacaTagged.java:46	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:47	Avoid excessively long variable names like doTokenDistributionForTagged
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:50	Perhaps 'guiDialog' could be replaced by a local variable.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:59	Parameter '_pnmldata' is not assigned and could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:69	System.out.print is used
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:75	Local variable 'contentPane' could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:81	Local variable 'buttonLabels' could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:82	Local variable 'buttonHandlers' could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:83	Avoid unused local variables such as 'buttons'.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:84	Found 'DU'-anomaly for variable 'buttons' (lines '84'-'91').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:94	Use explicit scoping instead of the default package private level
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:95	Parameter 'arg0' is not assigned and could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:98	Avoid if (x != y) ..; else ..;
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:99	Avoid using if...else statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:110	Local variable 'out1' could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:112	Local variable 'fstream' could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:124	System.out.print is used
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:128	Avoid excessively long variable names like outputPerformanceResult
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:128	Found 'DD'-anomaly for variable 'outputPerformanceResult' (lines '128'-'171').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:133	Avoid variables with short names like rt
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:143	Avoid variables with short names like br
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:144	Avoid unused local variables such as 'br2'.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:144	Found 'DU'-anomaly for variable 'br2' (lines '144'-'185').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:146	Found 'DD'-anomaly for variable 'line' (lines '146'-'150').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:150	Avoid assignments in operands
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:150	Found 'DU'-anomaly for variable 'line' (lines '150'-'185').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:152	System.out.print is used
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:153	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:158	System.out.print is used
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:159	A catch statement should never catch throwable since it includes errors.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:160	Avoid printStackTrace(); use a logger call instead.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:163	Avoid variables with short names like pe
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:164	Avoid variables with short names like p
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:170	Avoid using if statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:173	Avoid using if statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:173	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:176	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:180	Avoid using if...else statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:190	Use explicit scoping instead of the default package private level
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:191	Parameter 'arg0' is not assigned and could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:193	Avoid unused local variables such as 'result'.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:193	Found 'DU'-anomaly for variable 'result' (lines '193'-'194').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:220	The String literal "}\n" appears 12 times in this file; the first occurrence is on line 220
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:227	The String literal "}{\n" appears 5 times in this file; the first occurrence is on line 227
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:230	The String literal "\t}\n" appears 5 times in this file; the first occurrence is on line 230
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:251	Found 'DD'-anomaly for variable 'taggedArc' (lines '251'-'256').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:253	Avoid using while statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:256	Found 'DD'-anomaly for variable 'taggedArc' (lines '256'-'256').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:267	Avoid using if...else statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:273	Avoid variables with short names like i
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:273	Parameter 'i' is not assigned and could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:273	Parameter 'type' is not assigned and could be declared final
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:276	Avoid using if statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:276	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:283	Avoid using if...else statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:286	Avoid using if...else statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:288	Avoid using if statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:332	Avoid using if statements without curly braces
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:342	The String literal " = " appears 4 times in this file; the first occurrence is on line 342
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:353	Found 'DD'-anomaly for variable 'taggedArc' (lines '353'-'364').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:354	Found 'DD'-anomaly for variable 'numInputArc' (lines '354'-'365').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:356	Avoid unused local variables such as 'arcsFrom'.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:356	Found 'DD'-anomaly for variable 'arcsFrom' (lines '356'-'356').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:356	Found 'DU'-anomaly for variable 'arcsFrom' (lines '356'-'381').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:364	Found 'DD'-anomaly for variable 'taggedArc' (lines '364'-'364').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:365	Found 'DD'-anomaly for variable 'numInputArc' (lines '365'-'365').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:384	Avoid really long methods.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:384	The method 'writeTransition' has a Cyclomatic Complexity of 40.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:384	The method writeTransition() has an NCSS line count of 141
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:384	The method writeTransition() has an NPath complexity of 391680
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:387	Avoid excessively long variable names like arcFromTransitions
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:389	Found 'DD'-anomaly for variable 'tagInputPlaceIndex' (lines '389'-'411').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:391	Found 'DD'-anomaly for variable 'tagOutputPlaceIndex' (lines '391'-'425').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:411	Found 'DD'-anomaly for variable 'tagInputPlaceIndex' (lines '411'-'411').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:411	Found 'DU'-anomaly for variable 'tagInputPlaceIndex' (lines '411'-'718').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:412	Found 'DU'-anomaly for variable 'taggedInput' (lines '412'-'718').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:425	Found 'DU'-anomaly for variable 'tagOutputPlaceIndex' (lines '425'-'718').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:551	An empty statement (semicolon) not part of a loop
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:551	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:590	An empty statement (semicolon) not part of a loop
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:602	The String literal " tagged_location== " appears 6 times in this file; the first occurrence is on line 602
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:660	An empty statement (semicolon) not part of a loop
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:732	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:745	Avoid unused method parameters such as 'tagInputPlace'.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:747	Avoid instantiating String objects; this is usually unnecessary.
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:783	Found 'DD'-anomaly for variable 'index' (lines '783'-'787').
-src/pipe/modules/dnamacaTagged/DnamacaTagged.java:798	Avoid instantiating String objects; this is usually unnecessary.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:47	Avoid excessively long variable names like performanceDesc_clone
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:47	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:48	Avoid excessively long variable names like doTokenDistributionForTagged
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:51	Perhaps 'guiDialog' could be replaced by a local variable.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:60	Parameter '_pnmldata' is not assigned and could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:70	System.out.print is used
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:76	Local variable 'contentPane' could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:82	Local variable 'buttonLabels' could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:83	Local variable 'buttonHandlers' could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:84	Avoid unused local variables such as 'buttons'.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:85	Found 'DU'-anomaly for variable 'buttons' (lines '84'-'91').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:95	Use explicit scoping instead of the default package private level
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:96	Parameter 'arg0' is not assigned and could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:99	Avoid if (x != y) ..; else ..;
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:100	Avoid using if...else statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:111	Local variable 'out1' could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:113	Local variable 'fstream' could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:125	System.out.print is used
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:129	Avoid excessively long variable names like outputPerformanceResult
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:129	Found 'DD'-anomaly for variable 'outputPerformanceResult' (lines '128'-'171').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:134	Avoid variables with short names like rt
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:144	Avoid variables with short names like br
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:145	Avoid unused local variables such as 'br2'.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:145	Found 'DU'-anomaly for variable 'br2' (lines '144'-'185').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:147	Found 'DD'-anomaly for variable 'line' (lines '146'-'150').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:151	Avoid assignments in operands
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:151	Found 'DU'-anomaly for variable 'line' (lines '150'-'185').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:153	System.out.print is used
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:154	Prefer StringBuffer over += for concatenating strings
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:159	System.out.print is used
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:160	A catch statement should never catch throwable since it includes errors.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:161	Avoid printStackTrace(); use a logger call instead.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:164	Avoid variables with short names like pe
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:165	Avoid variables with short names like p
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:171	Avoid using if statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:174	Avoid using if statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:174	Prefer StringBuffer over += for concatenating strings
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:177	Prefer StringBuffer over += for concatenating strings
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:181	Avoid using if...else statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:191	Use explicit scoping instead of the default package private level
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:192	Parameter 'arg0' is not assigned and could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:194	Avoid unused local variables such as 'result'.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:194	Found 'DU'-anomaly for variable 'result' (lines '193'-'194').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:221	The String literal "}\n" appears 12 times in this file; the first occurrence is on line 220
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:228	The String literal "}{\n" appears 5 times in this file; the first occurrence is on line 227
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:231	The String literal "\t}\n" appears 5 times in this file; the first occurrence is on line 230
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:252	Found 'DD'-anomaly for variable 'taggedArc' (lines '251'-'256').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:254	Avoid using while statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:257	Found 'DD'-anomaly for variable 'taggedArc' (lines '256'-'256').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:268	Avoid using if...else statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:274	Avoid variables with short names like i
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:274	Parameter 'i' is not assigned and could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:274	Parameter 'type' is not assigned and could be declared final
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:277	Avoid using if statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:277	Prefer StringBuffer over += for concatenating strings
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:284	Avoid using if...else statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:287	Avoid using if...else statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:289	Avoid using if statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:333	Avoid using if statements without curly braces
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:343	The String literal " = " appears 4 times in this file; the first occurrence is on line 342
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:354	Found 'DD'-anomaly for variable 'taggedArc' (lines '353'-'364').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:355	Found 'DD'-anomaly for variable 'numInputArc' (lines '354'-'365').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:357	Avoid unused local variables such as 'arcsFrom'.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:357	Found 'DD'-anomaly for variable 'arcsFrom' (lines '356'-'356').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:357	Found 'DU'-anomaly for variable 'arcsFrom' (lines '356'-'381').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:365	Found 'DD'-anomaly for variable 'taggedArc' (lines '364'-'364').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:366	Found 'DD'-anomaly for variable 'numInputArc' (lines '365'-'365').
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:386	Avoid really long methods.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:386	The method 'writeTransition' has a Cyclomatic Complexity of 40.
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:386	The method writeTransition() has an NCSS line count of 141
+src/pipe/modules/dnamacaTagged/DnamacaTagged.java:386	The method writeTransition() has an NPath complexity of 391680
 src/pipe/modules/gspn/GSPN.java:31	The class 'GSPN' has a Cyclomatic Complexity of 4 (Highest = 12).
 src/pipe/modules/gspn/GSPN.java:31	This class has too many methods, consider refactoring it.
 src/pipe/modules/gspn/GSPN.java:42	Avoid unused private methods such as 'isEFCGSPN(DataLayer)'.
@@ -8752,118 +8735,88 @@ src/pipe/modules/passageTimeForTaggedNet/StateViewer.java:137	Avoid using if...e
 src/pipe/modules/passageTimeForTaggedNet/StateViewer.java:140	Avoid using if...else statements without curly braces
 src/pipe/modules/passageTimeForTaggedNet/StateViewer.java:142	Avoid using if statements without curly braces
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:1	Package name contains upper case characters
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:19	The class 'TransModel' has a Cyclomatic Complexity of 5 (Highest = 40).
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:19	This class has too many methods, consider refactoring it.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:23	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:23	Private field 'places' could be made final; it is only initialized in the declaration or constructor.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:20	The class 'TransModel' has a Cyclomatic Complexity of 5 (Highest = 40).
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:20	This class has too many methods, consider refactoring it.
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:24	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:24	It is somewhat confusing to have a field name with the same name as a method
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:24	Private field 'transitions' could be made final; it is only initialized in the declaration or constructor.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:24	Private field 'places' could be made final; it is only initialized in the declaration or constructor.
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:25	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:25	Private field 'pnmldata' could be made final; it is only initialized in the declaration or constructor.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:25	It is somewhat confusing to have a field name with the same name as a method
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:25	Private field 'transitions' could be made final; it is only initialized in the declaration or constructor.
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:26	Private field 'pnmldata' could be made final; it is only initialized in the declaration or constructor.
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:27	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:28	Private field 'tagPlace' could be made final; it is only initialized in the declaration or constructor.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:30	This final field could be made static
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:30	Use explicit scoping instead of the default package private level
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:29	Private field 'tagPlace' could be made final; it is only initialized in the declaration or constructor.
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:31	This final field could be made static
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:31	Use explicit scoping instead of the default package private level
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:32	This final field could be made static
 src/pipe/modules/passageTimeForTaggedNet/TransModel.java:32	Use explicit scoping instead of the default package private level
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:34	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:34	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:34	Private field 'destStateGrps' could be made final; it is only initialized in the declaration or constructor.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Parameter 'destinationState' is not assigned and could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Parameter 'pnml' is not assigned and could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Parameter 'sourceState' is not assigned and could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:37	Parameter 'timeSettings' is not assigned and could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:45	Overridable method 'produceModel' called during object construction
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:53	System.out.print is used
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:57	Local variable 'out1' could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:63	Local variable 'fstream' could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:68	Local variable 'out' could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:74	System.out.print is used
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:86	System.out.print is used
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:109	Avoid unused private methods such as 'performance()'.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:113	The String literal "}\n" appears 17 times in this file; the first occurrence is on line 113
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:119	The String literal "}{\n" appears 4 times in this file; the first occurrence is on line 119
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:122	The String literal "\t}\n" appears 4 times in this file; the first occurrence is on line 122
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:129	Local variable 'arcsTo' could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:130	Found 'DD'-anomaly for variable 'taggedArc' (lines '130'-'134').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:132	Avoid using while statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:133	Avoid using if statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:134	Found 'DD'-anomaly for variable 'taggedArc' (lines '134'-'134').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:137	Avoid using if statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:143	Avoid variables with short names like i
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:143	Parameter 'clone' is not assigned and could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:145	Avoid variables with short names like id
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:146	Avoid using if statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:146	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:173	Avoid using if statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:178	Avoid using if statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:193	The String literal " = " appears 4 times in this file; the first occurrence is on line 193
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:204	Found 'DD'-anomaly for variable 'taggedArc' (lines '204'-'215').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:205	Found 'DD'-anomaly for variable 'numInputArc' (lines '205'-'216').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:206	Local variable 'arcsTo' could be declared final
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:215	Found 'DD'-anomaly for variable 'taggedArc' (lines '215'-'215').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:216	Found 'DD'-anomaly for variable 'numInputArc' (lines '216'-'216').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:235	Avoid really long methods.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:235	Avoid variables with short names like i
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:235	The method 'writeTransition' has a Cyclomatic Complexity of 40.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:235	The method writeTransition() has an NCSS line count of 136
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:235	The method writeTransition() has an NPath complexity of 391680
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:238	Avoid excessively long variable names like arcFromTransitions
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:240	Avoid excessively long variable names like tagInputPlaceIndex
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:240	Found 'DD'-anomaly for variable 'tagInputPlaceIndex' (lines '240'-'262').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:242	Avoid excessively long variable names like tagOutputPlaceIndex
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:242	Found 'DD'-anomaly for variable 'tagOutputPlaceIndex' (lines '242'-'276').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:262	Found 'DD'-anomaly for variable 'tagInputPlaceIndex' (lines '262'-'262').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:262	Found 'DU'-anomaly for variable 'tagInputPlaceIndex' (lines '262'-'555').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:263	Found 'DU'-anomaly for variable 'taggedInput' (lines '263'-'555').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:276	Found 'DU'-anomaly for variable 'tagOutputPlaceIndex' (lines '276'-'555').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:288	Avoid using if...else statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:298	Avoid using if...else statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:312	Avoid using for statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:327	Avoid using for statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:377	Avoid using if...else statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:379	Avoid using if...else statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:388	An empty statement (semicolon) not part of a loop
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:388	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:394	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:397	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:413	Avoid using if...else statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:427	An empty statement (semicolon) not part of a loop
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:427	Prefer StringBuffer over += for concatenating strings
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:439	The String literal " tagged_location== " appears 6 times in this file; the first occurrence is on line 439
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:497	An empty statement (semicolon) not part of a loop
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:558	Avoid variables with short names like i
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:569	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:582	Avoid unused method parameters such as 'tagInputPlace'.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:584	Avoid instantiating String objects; this is usually unnecessary.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:620	Found 'DD'-anomaly for variable 'index' (lines '620'-'624').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:635	Avoid instantiating String objects; this is usually unnecessary.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:678	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:678	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:678	The method 'stateGroups' has a Cyclomatic Complexity of 12.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:678	The method stateGroups() has an NPath complexity of 209
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:682	Found 'DD'-anomaly for variable 'tag_count' (lines '682'-'689').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:685	Found 'DU'-anomaly for variable 'first_con' (lines '685'-'736').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:686	Avoid unused local variables such as 'and_con'.
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:686	Found 'DD'-anomaly for variable 'and_con' (lines '686'-'686').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:686	Found 'DU'-anomaly for variable 'and_con' (lines '686'-'736').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:688	Avoid instantiating new objects inside loops
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:688	Found 'DD'-anomaly for variable 'tag' (lines '688'-'697').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:697	Found 'DD'-anomaly for variable 'tag' (lines '697'-'705').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:697	Found 'DU'-anomaly for variable 'tag' (lines '697'-'736').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:703	Avoid using for statements without curly braces
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:705	Found 'DD'-anomaly for variable 'tag' (lines '705'-'705').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:705	Found 'DU'-anomaly for variable 'tag' (lines '705'-'736').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:712	Found 'DU'-anomaly for variable 'first_con' (lines '712'-'736').
-src/pipe/modules/passageTimeForTaggedNet/TransModel.java:734	Found 'DU'-anomaly for variable 'groupCount' (lines '734'-'736').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:33	This final field could be made static
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:33	Use explicit scoping instead of the default package private level
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:35	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:35	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:35	Private field 'destStateGrps' could be made final; it is only initialized in the declaration or constructor.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Parameter 'destinationState' is not assigned and could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Parameter 'pnml' is not assigned and could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Parameter 'sourceState' is not assigned and could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:38	Parameter 'timeSettings' is not assigned and could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:46	Overridable method 'produceModel' called during object construction
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:54	System.out.print is used
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:58	Local variable 'out1' could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:64	Local variable 'fstream' could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:69	Local variable 'out' could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:75	System.out.print is used
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:87	System.out.print is used
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:110	Avoid unused private methods such as 'performance()'.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:114	The String literal "}\n" appears 17 times in this file; the first occurrence is on line 113
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:120	The String literal "}{\n" appears 4 times in this file; the first occurrence is on line 119
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:123	The String literal "\t}\n" appears 4 times in this file; the first occurrence is on line 122
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:130	Local variable 'arcsTo' could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:131	Found 'DD'-anomaly for variable 'taggedArc' (lines '130'-'134').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:133	Avoid using while statements without curly braces
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:134	Avoid using if statements without curly braces
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:135	Found 'DD'-anomaly for variable 'taggedArc' (lines '134'-'134').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:138	Avoid using if statements without curly braces
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:144	Avoid variables with short names like i
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:144	Parameter 'clone' is not assigned and could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:146	Avoid variables with short names like id
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:147	Avoid using if statements without curly braces
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:147	Prefer StringBuffer over += for concatenating strings
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:174	Avoid using if statements without curly braces
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:179	Avoid using if statements without curly braces
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:194	The String literal " = " appears 4 times in this file; the first occurrence is on line 193
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:205	Found 'DD'-anomaly for variable 'taggedArc' (lines '204'-'215').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:206	Found 'DD'-anomaly for variable 'numInputArc' (lines '205'-'216').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:207	Local variable 'arcsTo' could be declared final
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:216	Found 'DD'-anomaly for variable 'taggedArc' (lines '215'-'215').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:217	Found 'DD'-anomaly for variable 'numInputArc' (lines '216'-'216').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:236	Avoid really long methods.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:236	Avoid variables with short names like i
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:236	The method 'writeTransition' has a Cyclomatic Complexity of 40.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:236	The method writeTransition() has an NCSS line count of 136
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:236	The method writeTransition() has an NPath complexity of 391680
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:265	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:265	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:265	The method 'stateGroups' has a Cyclomatic Complexity of 12.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:265	The method stateGroups() has an NPath complexity of 209
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:269	Found 'DD'-anomaly for variable 'tag_count' (lines '682'-'689').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:272	Found 'DU'-anomaly for variable 'first_con' (lines '685'-'736').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:273	Avoid unused local variables such as 'and_con'.
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:273	Found 'DD'-anomaly for variable 'and_con' (lines '686'-'686').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:273	Found 'DU'-anomaly for variable 'and_con' (lines '686'-'736').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:275	Avoid instantiating new objects inside loops
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:275	Found 'DD'-anomaly for variable 'tag' (lines '688'-'697').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:284	Found 'DD'-anomaly for variable 'tag' (lines '697'-'705').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:284	Found 'DU'-anomaly for variable 'tag' (lines '697'-'736').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:290	Avoid using for statements without curly braces
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:292	Found 'DD'-anomaly for variable 'tag' (lines '705'-'705').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:292	Found 'DU'-anomaly for variable 'tag' (lines '705'-'736').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:299	Found 'DU'-anomaly for variable 'first_con' (lines '712'-'736').
+src/pipe/modules/passageTimeForTaggedNet/TransModel.java:321	Found 'DU'-anomaly for variable 'groupCount' (lines '734'-'736').
 src/pipe/modules/queryeditor/QueryManager.java:12	A high number of imports can indicate a high degree of coupling within an object.
 src/pipe/modules/queryeditor/QueryManager.java:67	The class 'QueryManager' has a Cyclomatic Complexity of 2 (Highest = 23).
 src/pipe/modules/queryeditor/QueryManager.java:67	This class has too many methods, consider refactoring it.
@@ -9615,180 +9568,85 @@ src/pipe/modules/queryeditor/gui/QueryAction.java:36	Avoid instantiating Boolean
 src/pipe/modules/queryeditor/gui/QueryAction.java:45	Parameter 'selected' is not assigned and could be declared final
 src/pipe/modules/queryeditor/gui/QueryAction.java:46	Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
 src/pipe/modules/queryeditor/gui/QueryEditor.java:13	A high number of imports can indicate a high degree of coupling within an object.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:99	Avoid really long classes.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:99	The class 'QueryEditor' has a Cyclomatic Complexity of 3 (Highest = 31).
-src/pipe/modules/queryeditor/gui/QueryEditor.java:100	This class has too many methods, consider refactoring it.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:102	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:104	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:100	Avoid really long classes.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:100	The class 'QueryEditor' has a Cyclomatic Complexity of 3 (Highest = 31).
+src/pipe/modules/queryeditor/gui/QueryEditor.java:101	This class has too many methods, consider refactoring it.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:103	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/pipe/modules/queryeditor/gui/QueryEditor.java:105	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:105	It is somewhat confusing to have a field name matching the declaring class name
 src/pipe/modules/queryeditor/gui/QueryEditor.java:106	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:106	It is somewhat confusing to have a field name matching the declaring class name
 src/pipe/modules/queryeditor/gui/QueryEditor.java:107	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:126	Perhaps 'toolBar1' could be replaced by a local variable.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:128	It is a good practice to call super() in a constructor
-src/pipe/modules/queryeditor/gui/QueryEditor.java:131	Local variable 'osName' could be declared final
-src/pipe/modules/queryeditor/gui/QueryEditor.java:149	System.out.print is used
-src/pipe/modules/queryeditor/gui/QueryEditor.java:153	System.out.print is used
-src/pipe/modules/queryeditor/gui/QueryEditor.java:157	System.out.print is used
-src/pipe/modules/queryeditor/gui/QueryEditor.java:161	System.out.print is used
-src/pipe/modules/queryeditor/gui/QueryEditor.java:165	System.out.print is used
-src/pipe/modules/queryeditor/gui/QueryEditor.java:174	Overridable method 'setTitle' called during object construction
-src/pipe/modules/queryeditor/gui/QueryEditor.java:175	Local variable 'minFrameSize' could be declared final
-src/pipe/modules/queryeditor/gui/QueryEditor.java:176	Local variable 'prefFrameSize' could be declared final
-src/pipe/modules/queryeditor/gui/QueryEditor.java:182	Local variable 'contentPane' could be declared final
-src/pipe/modules/queryeditor/gui/QueryEditor.java:198	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:201	The String literal "New" appears 5 times in this file; the first occurrence is on line 201
-src/pipe/modules/queryeditor/gui/QueryEditor.java:202	The String literal "Open" appears 5 times in this file; the first occurrence is on line 202
-src/pipe/modules/queryeditor/gui/QueryEditor.java:203	The String literal "Close" appears 5 times in this file; the first occurrence is on line 203
-src/pipe/modules/queryeditor/gui/QueryEditor.java:204	The String literal "Save" appears 5 times in this file; the first occurrence is on line 204
-src/pipe/modules/queryeditor/gui/QueryEditor.java:206	The String literal "PNG" appears 4 times in this file; the first occurrence is on line 206
-src/pipe/modules/queryeditor/gui/QueryEditor.java:219	Local variable 'select' could be declared final
-src/pipe/modules/queryeditor/gui/QueryEditor.java:220	Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:446	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:455	Avoid instantiating new objects inside loops
-src/pipe/modules/queryeditor/gui/QueryEditor.java:532	Found 'DD'-anomaly for variable 'toolbars' (lines '532'-'533').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:533	Found 'DD'-anomaly for variable 'toolbars' (lines '533'-'534').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:549	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:549	The method 'addIntelligentButton' has a Cyclomatic Complexity of 31.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:554	Avoid variables with short names like b
-src/pipe/modules/queryeditor/gui/QueryEditor.java:562	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:562	Avoid variables with short names like e
-src/pipe/modules/queryeditor/gui/QueryEditor.java:562	Parameter 'e' is not assigned and could be declared final
-src/pipe/modules/queryeditor/gui/QueryEditor.java:562	The method 'actionPerformed' has a Cyclomatic Complexity of 28.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'568').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'568').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'568').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'572').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'572').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'572').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'577').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'577').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'577').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'581').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'581').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'581').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'585').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'585').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'585').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'589').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'589').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'589').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'593').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'593').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'593').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'597').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'597').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'597').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'601').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'601').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'601').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'605').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'605').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'605').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'609').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'609').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'609').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'613').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'613').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'613').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'617').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'617').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'617').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'621').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'621').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'621').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'625').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'625').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'625').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'629').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'629').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'629').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'633').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'633').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'633').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'637').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'637').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'637').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'641').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'641').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'641').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'645').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'645').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'645').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'649').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'649').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'649').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'653').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'653').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'653').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'657').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'657').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'657').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'661').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'661').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'661').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'665').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'665').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'665').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'669').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'669').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'669').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'673').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'673').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:565	Found 'DD'-anomaly for variable 'msg' (lines '565'-'673').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:566	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/QueryEditor.java:570	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/QueryEditor.java:575	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/QueryEditor.java:579	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/QueryEditor.java:583	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/QueryEditor.java:716	Avoid variables with short names like e
-src/pipe/modules/queryeditor/gui/QueryEditor.java:735	Avoid variables with short names like e
-src/pipe/modules/queryeditor/gui/QueryEditor.java:740	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/QueryEditor.java:780	Avoid variables with short names like o
-src/pipe/modules/queryeditor/gui/QueryEditor.java:782	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:786	Parameter 'forceSaveAs' is not assigned and could be declared final
-src/pipe/modules/queryeditor/gui/QueryEditor.java:788	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:791	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/QueryEditor.java:799	Found 'DD'-anomaly for variable 'path' (lines '799'-'801').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:799	Found 'DD'-anomaly for variable 'path' (lines '799'-'802').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:800	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/QueryEditor.java:801	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:802	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:804	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:851	Found 'DD'-anomaly for variable 'name' (lines '851'-'855').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:851	Found 'DD'-anomaly for variable 'name' (lines '851'-'872').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:872	Found 'DU'-anomaly for variable 'name' (lines '872'-'904').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:881	Avoid printStackTrace(); use a logger call instead.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:921	Switch statements should have a default label
-src/pipe/modules/queryeditor/gui/QueryEditor.java:928	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/QueryEditor.java:942	Avoid unnecessary comparisons in boolean expressions
-src/pipe/modules/queryeditor/gui/QueryEditor.java:942	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:943	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/QueryEditor.java:955	This statement may have some unnecessary parentheses
-src/pipe/modules/queryeditor/gui/QueryEditor.java:957	No need to call String.valueOf to append to a string.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:976	Found 'DD'-anomaly for variable 'nextAction' (lines '976'-'976').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:976	Found 'DD'-anomaly for variable 'nextAction' (lines '976'-'980').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:976	Found 'DU'-anomaly for variable 'nextAction' (lines '976'-'987').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:981	Use equals() to compare object references.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1029	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1030	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1045	The class 'FileAction' has a Cyclomatic Complexity of 10 (Highest = 17).
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1052	The method 'actionPerformed' has a Cyclomatic Complexity of 17.
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1056	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1115	System.exit() should not be used in J2EE/JEE apps
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1161	Found 'DU'-anomaly for variable 'currentXNoZoom' (lines '1,161'-'1,222').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1162	Found 'DU'-anomaly for variable 'currentYNoZoom' (lines '1,162'-'1,222').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1164	Found 'DD'-anomaly for variable 'selection' (lines '1,164'-'1,182').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1164	Found 'DD'-anomaly for variable 'selection' (lines '1,164'-'1,185').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1164	Found 'DU'-anomaly for variable 'selection' (lines '1,164'-'1,222').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1165	Found 'DD'-anomaly for variable 'strToTest' (lines '1,165'-'1,188').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1165	Found 'DU'-anomaly for variable 'strToTest' (lines '1,165'-'1,222').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1182	Found 'DD'-anomaly for variable 'selection' (lines '1,182'-'1,185').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1189	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1193	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1228	Found 'DD'-anomaly for variable 'toTest' (lines '1,228'-'1,232').
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1237	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/QueryEditor.java:1302	Assigning an Object to null is a code smell.  Consider refactoring.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:108	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:127	Perhaps 'toolBar1' could be replaced by a local variable.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:129	It is a good practice to call super() in a constructor
+src/pipe/modules/queryeditor/gui/QueryEditor.java:132	Local variable 'osName' could be declared final
+src/pipe/modules/queryeditor/gui/QueryEditor.java:150	System.out.print is used
+src/pipe/modules/queryeditor/gui/QueryEditor.java:154	System.out.print is used
+src/pipe/modules/queryeditor/gui/QueryEditor.java:158	System.out.print is used
+src/pipe/modules/queryeditor/gui/QueryEditor.java:162	System.out.print is used
+src/pipe/modules/queryeditor/gui/QueryEditor.java:166	System.out.print is used
+src/pipe/modules/queryeditor/gui/QueryEditor.java:175	Overridable method 'setTitle' called during object construction
+src/pipe/modules/queryeditor/gui/QueryEditor.java:176	Local variable 'minFrameSize' could be declared final
+src/pipe/modules/queryeditor/gui/QueryEditor.java:177	Local variable 'prefFrameSize' could be declared final
+src/pipe/modules/queryeditor/gui/QueryEditor.java:183	Local variable 'contentPane' could be declared final
+src/pipe/modules/queryeditor/gui/QueryEditor.java:199	Avoid really long methods.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:202	The String literal "New" appears 5 times in this file; the first occurrence is on line 201
+src/pipe/modules/queryeditor/gui/QueryEditor.java:203	The String literal "Open" appears 5 times in this file; the first occurrence is on line 202
+src/pipe/modules/queryeditor/gui/QueryEditor.java:204	The String literal "Close" appears 5 times in this file; the first occurrence is on line 203
+src/pipe/modules/queryeditor/gui/QueryEditor.java:205	The String literal "Save" appears 5 times in this file; the first occurrence is on line 204
+src/pipe/modules/queryeditor/gui/QueryEditor.java:207	The String literal "PNG" appears 4 times in this file; the first occurrence is on line 206
+src/pipe/modules/queryeditor/gui/QueryEditor.java:220	Local variable 'select' could be declared final
+src/pipe/modules/queryeditor/gui/QueryEditor.java:221	Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:447	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:456	Avoid instantiating new objects inside loops
+src/pipe/modules/queryeditor/gui/QueryEditor.java:519	Avoid variables with short names like e
+src/pipe/modules/queryeditor/gui/QueryEditor.java:538	Avoid variables with short names like e
+src/pipe/modules/queryeditor/gui/QueryEditor.java:543	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/QueryEditor.java:583	Avoid variables with short names like o
+src/pipe/modules/queryeditor/gui/QueryEditor.java:585	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:589	Parameter 'forceSaveAs' is not assigned and could be declared final
+src/pipe/modules/queryeditor/gui/QueryEditor.java:591	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:594	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/QueryEditor.java:602	Found 'DD'-anomaly for variable 'path' (lines '799'-'801').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:602	Found 'DD'-anomaly for variable 'path' (lines '799'-'802').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:603	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/QueryEditor.java:604	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:605	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:607	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:654	Found 'DD'-anomaly for variable 'name' (lines '851'-'855').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:654	Found 'DD'-anomaly for variable 'name' (lines '851'-'872').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:675	Found 'DU'-anomaly for variable 'name' (lines '872'-'904').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:684	Avoid printStackTrace(); use a logger call instead.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:724	Switch statements should have a default label
+src/pipe/modules/queryeditor/gui/QueryEditor.java:731	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/QueryEditor.java:745	Avoid unnecessary comparisons in boolean expressions
+src/pipe/modules/queryeditor/gui/QueryEditor.java:745	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:746	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/QueryEditor.java:758	This statement may have some unnecessary parentheses
+src/pipe/modules/queryeditor/gui/QueryEditor.java:760	No need to call String.valueOf to append to a string.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:779	Found 'DD'-anomaly for variable 'nextAction' (lines '976'-'976').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:779	Found 'DD'-anomaly for variable 'nextAction' (lines '976'-'980').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:779	Found 'DU'-anomaly for variable 'nextAction' (lines '976'-'987').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:784	Use equals() to compare object references.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:832	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:833	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:848	The class 'FileAction' has a Cyclomatic Complexity of 10 (Highest = 17).
+src/pipe/modules/queryeditor/gui/QueryEditor.java:855	The method 'actionPerformed' has a Cyclomatic Complexity of 17.
+src/pipe/modules/queryeditor/gui/QueryEditor.java:859	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/QueryEditor.java:918	System.exit() should not be used in J2EE/JEE apps
+src/pipe/modules/queryeditor/gui/QueryEditor.java:964	Found 'DU'-anomaly for variable 'currentXNoZoom' (lines '1,161'-'1,222').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:965	Found 'DU'-anomaly for variable 'currentYNoZoom' (lines '1,162'-'1,222').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:967	Found 'DD'-anomaly for variable 'selection' (lines '1,164'-'1,182').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:967	Found 'DD'-anomaly for variable 'selection' (lines '1,164'-'1,185').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:967	Found 'DU'-anomaly for variable 'selection' (lines '1,164'-'1,222').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:968	Found 'DD'-anomaly for variable 'strToTest' (lines '1,165'-'1,188').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:968	Found 'DU'-anomaly for variable 'strToTest' (lines '1,165'-'1,222').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:985	Found 'DD'-anomaly for variable 'selection' (lines '1,182'-'1,185').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:992	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/QueryEditor.java:996	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/QueryEditor.java:1031	Found 'DD'-anomaly for variable 'toTest' (lines '1,228'-'1,232').
+src/pipe/modules/queryeditor/gui/QueryEditor.java:1040	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/QueryEditor.java:1105	Assigning an Object to null is a code smell.  Consider refactoring.
 src/pipe/modules/queryeditor/gui/QueryException.java:15	Parameter 'msg' is not assigned and could be declared final
 src/pipe/modules/queryeditor/gui/QueryFileBrowser.java:24	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/pipe/modules/queryeditor/gui/QueryFileBrowser.java:27	Avoid reassigning parameters such as 'filetype'
@@ -10152,6 +10010,7 @@ src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArc.java:523	Av
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArc.java:523	Avoid variables with short names like y
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArc.java:530	Avoid variables with short names like x
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArc.java:624	clone() method should be implemented only if implementing Cloneable interface
+src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArc.java:625	clone() method should be implemented only if implementing Cloneable interface
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArc.java:625	clone() method should throw CloneNotSupportedException
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArcPath.java:8	This class has a bunch of public methods and attributes
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeArcPath.java:32	This class has too many methods, consider refactoring it.
@@ -10370,6 +10229,7 @@ src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:512	A
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:528	Found 'DD'-anomaly for variable 'scaleFactor' (lines '528'-'531').
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:582	An empty method in an abstract class should be abstract instead
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:593	clone() method should be implemented only if implementing Cloneable interface
+src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:594	clone() method should be implemented only if implementing Cloneable interface
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:594	clone() method should throw CloneNotSupportedException
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:597	Consider simply returning the value vs storing it in local variable 'nodeCopy'
 src/pipe/modules/queryeditor/gui/performancetrees/PerformanceTreeNode.java:604	Use explicit scoping instead of the default package private level
@@ -10524,190 +10384,98 @@ src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroDefinition.java:57
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroDefinition.java:570	The String literal " and type " appears 5 times in this file; the first occurrence is on line 570
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroDefinition.java:582	These nested if statements could be combined
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:11	A high number of imports can indicate a high degree of coupling within an object.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:105	Avoid really long classes.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:105	The class 'MacroEditor' has a Cyclomatic Complexity of 4 (Highest = 30).
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:106	This class has too many methods, consider refactoring it.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:110	Use explicit scoping instead of the default package private level
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:112	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:112	Use explicit scoping instead of the default package private level
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:106	Avoid really long classes.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:106	The class 'MacroEditor' has a Cyclomatic Complexity of 4 (Highest = 30).
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:107	This class has too many methods, consider refactoring it.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:111	Use explicit scoping instead of the default package private level
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:113	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:116	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:113	Use explicit scoping instead of the default package private level
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:114	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:117	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:118	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:119	Perhaps 'toolBar1' could be replaced by a local variable.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:120	Avoid excessively long variable names like macroDescriptionTextField
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:120	Avoid excessively long variable names like macroNameTextField
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:123	Variables that are final and static should be in all caps.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:119	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:120	Perhaps 'toolBar1' could be replaced by a local variable.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:121	Avoid excessively long variable names like macroDescriptionTextField
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:121	Avoid excessively long variable names like macroNameTextField
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:124	Variables that are final and static should be in all caps.
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:125	Variables that are final and static should be in all caps.
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:126	Variables that are final and static should be in all caps.
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:127	Variables that are final and static should be in all caps.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:144	Avoid unused private fields such as 'argumentDialog'.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:145	Avoid unused private fields such as 'argumentNode'.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:153	Local variable 'minFrameSize' could be declared final
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:154	Local variable 'prefFrameSize' could be declared final
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:175	Local variable 'macroName' could be declared final
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:186	The String literal "Draw Select" appears 4 times in this file; the first occurrence is on line 186
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:198	Local variable 'fileName' could be declared final
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:200	Local variable 'inFile' could be declared final
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:241	Avoid printStackTrace(); use a logger call instead.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:246	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:256	The String literal "XML" appears 4 times in this file; the first occurrence is on line 256
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:257	The String literal "EPS" appears 4 times in this file; the first occurrence is on line 257
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:258	The String literal "PNG" appears 4 times in this file; the first occurrence is on line 258
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:260	The String literal "Print" appears 4 times in this file; the first occurrence is on line 260
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:292	Avoid excessively long variable names like macroInfoPanelHeight
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:299	Avoid excessively long variable names like macroBuilderButtonsPanel
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:302	Avoid excessively long variable names like queryBuilderToolbars
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:349	This statement may have some unnecessary parentheses
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:387	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:403	Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:531	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:536	Avoid unused private methods such as 'addZoomMenuItems(JMenu)'.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:540	Avoid instantiating new objects inside loops
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:549	This statement may have some unnecessary parentheses
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:551	No need to call String.valueOf to append to a string.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:596	Found 'DD'-anomaly for variable 'toolbars' (lines '596'-'597').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:597	Found 'DD'-anomaly for variable 'toolbars' (lines '597'-'598').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:613	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:613	The method 'addIntelligentButton' has a Cyclomatic Complexity of 30.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:618	Avoid variables with short names like b
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:626	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:626	Avoid variables with short names like e
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:626	Parameter 'e' is not assigned and could be declared final
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:626	The method 'actionPerformed' has a Cyclomatic Complexity of 27.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'632').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'632').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'632').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'636').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'636').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'636').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'641').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'641').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'641').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'645').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'645').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'645').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'649').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'649').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'649').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'653').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'653').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'653').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'657').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'657').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'657').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'661').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'661').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'661').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'665').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'665').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'665').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'669').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'669').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'669').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'673').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'673').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'673').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'677').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'677').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'677').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'681').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'681').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'681').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'685').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'685').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'685').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'689').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'689').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'689').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'693').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'693').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'693').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'697').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'697').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'697').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'701').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'701').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'701').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'705').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'705').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'705').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'709').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'709').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'709').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'713').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'713').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'713').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'717').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'717').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'717').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'721').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'721').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'721').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'725').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'725').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'725').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'729').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'729').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'729').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'733').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'733').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:629	Found 'DD'-anomaly for variable 'msg' (lines '629'-'733').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:630	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:634	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:639	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:643	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:647	Position literals first in String comparisons
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:778	Avoid variables with short names like o
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:780	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:798	Found 'DD'-anomaly for variable 'nextAction' (lines '798'-'798').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:798	Found 'DD'-anomaly for variable 'nextAction' (lines '798'-'802').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:798	Found 'DU'-anomaly for variable 'nextAction' (lines '798'-'809').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:803	Use equals() to compare object references.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:830	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:830	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:832	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:832	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:833	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:839	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:840	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:846	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:847	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:847	Avoid using if...else statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:853	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:864	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:865	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:884	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:885	A method should have only one exit point, and that should be the last statement in the method
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:891	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:896	Use explicit scoping instead of the default package private level
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:898	Avoid really long methods.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:898	Parameter 'event' is not assigned and could be declared final
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:898	The method 'actionPerformed' has a Cyclomatic Complexity of 19.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:964	Avoid printStackTrace(); use a logger call instead.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:967	Avoid unnecessary comparisons in boolean expressions
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:994	Avoid using if statements without curly braces
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1045	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,045'-'1,052').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1052	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,052'-'1,052').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1060	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,060'-'1,067').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1067	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,067'-'1,067').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1080	The method 'macroTreeValid' has a Cyclomatic Complexity of 20.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1085	Avoid if (x != y) ..; else ..;
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1088	Avoid variables with short names like i
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1096	These nested if statements could be combined
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1111	Avoid variables with short names like j
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1163	These nested if statements could be combined
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1262	Avoid printStackTrace(); use a logger call instead.
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1385	Found 'DU'-anomaly for variable 'currentXNoZoom' (lines '1,385'-'1,446').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1386	Found 'DU'-anomaly for variable 'currentYNoZoom' (lines '1,386'-'1,446').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1388	Found 'DD'-anomaly for variable 'selection' (lines '1,388'-'1,406').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1388	Found 'DD'-anomaly for variable 'selection' (lines '1,388'-'1,409').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1388	Found 'DU'-anomaly for variable 'selection' (lines '1,388'-'1,446').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1389	Found 'DD'-anomaly for variable 'strToTest' (lines '1,389'-'1,412').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1389	Found 'DU'-anomaly for variable 'strToTest' (lines '1,389'-'1,446').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1406	Found 'DD'-anomaly for variable 'selection' (lines '1,406'-'1,409').
-src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1452	Found 'DD'-anomaly for variable 'toTest' (lines '1,452'-'1,456').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:128	Variables that are final and static should be in all caps.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:145	Avoid unused private fields such as 'argumentDialog'.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:146	Avoid unused private fields such as 'argumentNode'.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:154	Local variable 'minFrameSize' could be declared final
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:155	Local variable 'prefFrameSize' could be declared final
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:176	Local variable 'macroName' could be declared final
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:187	The String literal "Draw Select" appears 4 times in this file; the first occurrence is on line 186
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:199	Local variable 'fileName' could be declared final
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:201	Local variable 'inFile' could be declared final
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:242	Avoid printStackTrace(); use a logger call instead.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:247	Avoid really long methods.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:257	The String literal "XML" appears 4 times in this file; the first occurrence is on line 256
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:258	The String literal "EPS" appears 4 times in this file; the first occurrence is on line 257
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:259	The String literal "PNG" appears 4 times in this file; the first occurrence is on line 258
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:261	The String literal "Print" appears 4 times in this file; the first occurrence is on line 260
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:293	Avoid excessively long variable names like macroInfoPanelHeight
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:300	Avoid excessively long variable names like macroBuilderButtonsPanel
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:303	Avoid excessively long variable names like queryBuilderToolbars
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:350	This statement may have some unnecessary parentheses
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:388	Avoid really long methods.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:404	Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:532	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:537	Avoid unused private methods such as 'addZoomMenuItems(JMenu)'.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:541	Avoid instantiating new objects inside loops
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:550	This statement may have some unnecessary parentheses
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:552	No need to call String.valueOf to append to a string.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:586	Avoid variables with short names like o
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:588	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:606	Found 'DD'-anomaly for variable 'nextAction' (lines '798'-'798').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:606	Found 'DD'-anomaly for variable 'nextAction' (lines '798'-'802').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:606	Found 'DU'-anomaly for variable 'nextAction' (lines '798'-'809').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:611	Use equals() to compare object references.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:638	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:638	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:640	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:640	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:641	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:647	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:648	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:654	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:655	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:655	Avoid using if...else statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:661	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:672	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:673	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:692	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:693	A method should have only one exit point, and that should be the last statement in the method
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:699	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:704	Use explicit scoping instead of the default package private level
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:706	Avoid really long methods.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:706	Parameter 'event' is not assigned and could be declared final
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:706	The method 'actionPerformed' has a Cyclomatic Complexity of 19.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:772	Avoid printStackTrace(); use a logger call instead.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:775	Avoid unnecessary comparisons in boolean expressions
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:802	Avoid using if statements without curly braces
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:853	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,045'-'1,052').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:860	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,052'-'1,052').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:868	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,060'-'1,067').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:875	Found 'DD'-anomaly for variable 'stringContainsText' (lines '1,067'-'1,067').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:888	The method 'macroTreeValid' has a Cyclomatic Complexity of 20.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:893	Avoid if (x != y) ..; else ..;
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:896	Avoid variables with short names like i
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:904	These nested if statements could be combined
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:919	Avoid variables with short names like j
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:971	These nested if statements could be combined
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1070	Avoid printStackTrace(); use a logger call instead.
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1193	Found 'DU'-anomaly for variable 'currentXNoZoom' (lines '1,385'-'1,446').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1194	Found 'DU'-anomaly for variable 'currentYNoZoom' (lines '1,386'-'1,446').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1196	Found 'DD'-anomaly for variable 'selection' (lines '1,388'-'1,406').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1196	Found 'DD'-anomaly for variable 'selection' (lines '1,388'-'1,409').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1196	Found 'DU'-anomaly for variable 'selection' (lines '1,388'-'1,446').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1197	Found 'DD'-anomaly for variable 'strToTest' (lines '1,389'-'1,412').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1197	Found 'DU'-anomaly for variable 'strToTest' (lines '1,389'-'1,446').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1214	Found 'DD'-anomaly for variable 'selection' (lines '1,406'-'1,409').
+src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroEditor.java:1260	Found 'DD'-anomaly for variable 'toTest' (lines '1,452'-'1,456').
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroManager.java:13	A high number of imports can indicate a high degree of coupling within an object.
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroManager.java:59	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
 src/pipe/modules/queryeditor/gui/performancetrees/macros/MacroManager.java:59	The class 'MacroManager' has a Cyclomatic Complexity of 3 (Highest = 17).
@@ -11262,6 +11030,7 @@ src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/OperationNode.j
 src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/OperationNode.java:581	Found 'DD'-anomaly for variable 'numOfChildren' (lines '581'-'581').
 src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/OperationNode.java:590	An empty method in an abstract class should be abstract instead
 src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/OperationNode.java:595	clone() method should be implemented only if implementing Cloneable interface
+src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/OperationNode.java:596	clone() method should be implemented only if implementing Cloneable interface
 src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/OperationNode.java:596	clone() method should throw CloneNotSupportedException
 src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/OperationNode.java:599	Consider simply returning the value vs storing it in local variable 'nodeCopy'
 src/pipe/modules/queryeditor/gui/performancetrees/operationnodes/PassageTimeDensityNode.java:22	Parameter 'idInput' is not assigned and could be declared final
@@ -11626,6 +11395,7 @@ src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/ValueNode.java:134	
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/ValueNode.java:138	An empty method in an abstract class should be abstract instead
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/ValueNode.java:144	An empty method in an abstract class should be abstract instead
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/ValueNode.java:149	clone() method should be implemented only if implementing Cloneable interface
+src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/ValueNode.java:149	clone() method should be implemented only if implementing Cloneable interface
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/ValueNode.java:149	clone() method should throw CloneNotSupportedException
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/labels/ActionLabelManager.java:32	The class 'ActionLabelManager' has a Cyclomatic Complexity of 4 (Highest = 10).
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/labels/ActionLabelManager.java:45	Parameter 'nodeInput' is not assigned and could be declared final
@@ -11900,6 +11670,118 @@ src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/labels/StateView.ja
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/labels/StateView.java:174	Avoid excessively long variable names like conditionHasBeenSpecified
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/labels/StateView.java:174	Found 'DD'-anomaly for variable 'conditionHasBeenSpecified' (lines '174'-'177').
 src/pipe/modules/queryeditor/gui/performancetrees/valuenodes/labels/StateView.java:177	Found 'DD'-anomaly for variable 'conditionHasBeenSpecified' (lines '177'-'177').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:1	A high number of imports can indicate a high degree of coupling within an object.
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:54	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:54	The class 'Common' has a Cyclomatic Complexity of 20 (Highest = 36).
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:56	Avoid reassigning parameters such as 'toolBar1'
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:56	Avoid reassigning parameters such as 'toolBar2'
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:56	Parameter 'actions' is not assigned and could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:56	Parameter 'type' is not assigned and could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:64	Local variable 'drawButtons' could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:91	The String literal "queryEditor" appears 4 times in this file; the first occurrence is on line 83
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:99	Found 'DD'-anomaly for variable 'toolbars' (lines '91'-'92').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:100	Found 'DD'-anomaly for variable 'toolbars' (lines '92'-'93').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:116	Avoid really long methods.
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:116	The method 'addIntelligentButton' has a Cyclomatic Complexity of 36.
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:116	The method addIntelligentButton() has an NCSS line count of 103
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:118	Local variable 'selectedIconURL' could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:119	Local variable 'selectedIcon' could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:121	Avoid variables with short names like b
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:124	Local variable 'actionName' could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:127	Local variable 'actionListener' could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:129	Avoid really long methods.
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:129	Avoid variables with short names like e
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:129	Parameter 'e' is not assigned and could be declared final
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:129	The method 'actionPerformed' has a Cyclomatic Complexity of 33.
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'127').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'127').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'127').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'131').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'131').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'131').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'136').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'136').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'136').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'140').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'140').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'140').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'144').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'144').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'144').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'148').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'148').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'148').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'152').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'152').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'152').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'156').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'156').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'156').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'160').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'160').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'160').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'164').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'164').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'164').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'168').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'168').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'168').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'172').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'172').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'172').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'176').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'176').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'176').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'180').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'180').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'180').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'184').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'184').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'184').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'188').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'188').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'188').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'192').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'192').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'192').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'196').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'196').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'196').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'200').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'200').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'200').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'204').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'204').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'204').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'208').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'208').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'208').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'212').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'212').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'212').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'216').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'216').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'216').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'220').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'220').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'220').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'224').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'224').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'224').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'228').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'228').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'228').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'232').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'232').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'232').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'236').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'236').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:132	Found 'DD'-anomaly for variable 'msg' (lines '124'-'236').
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:133	Position literals first in String comparisons
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:137	Position literals first in String comparisons
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:142	Position literals first in String comparisons
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:142	Position literals first in String comparisons
+src/pipe/modules/queryeditor/io/CommonQueryEditor.java:146	Position literals first in String comparisons
 src/pipe/modules/queryeditor/io/MacroLoader.java:17	A high number of imports can indicate a high degree of coupling within an object.
 src/pipe/modules/queryeditor/io/MacroLoader.java:61	The class 'MacroLoader' has a Cyclomatic Complexity of 15 (Highest = 65).
 src/pipe/modules/queryeditor/io/MacroLoader.java:62	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
@@ -11945,33 +11827,8 @@ src/pipe/modules/queryeditor/io/MacroLoader.java:294	Avoid using if...else state
 src/pipe/modules/queryeditor/io/MacroLoader.java:296	Avoid using if...else statements without curly braces
 src/pipe/modules/queryeditor/io/MacroLoader.java:347	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
 src/pipe/modules/queryeditor/io/MacroLoader.java:356	These nested if statements could be combined
-src/pipe/modules/queryeditor/io/MacroLoader.java:441	Avoid really long methods.
-src/pipe/modules/queryeditor/io/MacroLoader.java:441	The method 'createArc' has a Cyclomatic Complexity of 22.
-src/pipe/modules/queryeditor/io/MacroLoader.java:441	The method createArc() has an NPath complexity of 40960
-src/pipe/modules/queryeditor/io/MacroLoader.java:443	Found 'DD'-anomaly for variable 'arcID' (lines '443'-'457').
-src/pipe/modules/queryeditor/io/MacroLoader.java:444	Found 'DD'-anomaly for variable 'arcLabel' (lines '444'-'460').
-src/pipe/modules/queryeditor/io/MacroLoader.java:445	Found 'DD'-anomaly for variable 'arcSourceID' (lines '445'-'463').
-src/pipe/modules/queryeditor/io/MacroLoader.java:446	Found 'DD'-anomaly for variable 'arcTargetID' (lines '446'-'466').
-src/pipe/modules/queryeditor/io/MacroLoader.java:447	Found 'DD'-anomaly for variable 'arcStartX' (lines '447'-'477').
-src/pipe/modules/queryeditor/io/MacroLoader.java:448	Found 'DD'-anomaly for variable 'arcStartY' (lines '448'-'480').
-src/pipe/modules/queryeditor/io/MacroLoader.java:449	Found 'DD'-anomaly for variable 'arcEndX' (lines '449'-'483').
-src/pipe/modules/queryeditor/io/MacroLoader.java:450	Found 'DD'-anomaly for variable 'arcEndY' (lines '450'-'486').
-src/pipe/modules/queryeditor/io/MacroLoader.java:451	Found 'DD'-anomaly for variable 'arcRequired' (lines '451'-'471').
-src/pipe/modules/queryeditor/io/MacroLoader.java:452	Found 'DD'-anomaly for variable 'labelRequired' (lines '452'-'490').
-src/pipe/modules/queryeditor/io/MacroLoader.java:470	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/MacroLoader.java:472	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/MacroLoader.java:493	Found 'DD'-anomaly for variable 'tempArc' (lines '493'-'549').
-src/pipe/modules/queryeditor/io/MacroLoader.java:505	Found 'DD'-anomaly for variable 'arcPathPointX' (lines '505'-'532').
-src/pipe/modules/queryeditor/io/MacroLoader.java:505	Found 'DU'-anomaly for variable 'arcPathPointX' (lines '505'-'551').
-src/pipe/modules/queryeditor/io/MacroLoader.java:506	Found 'DD'-anomaly for variable 'arcPathPointY' (lines '506'-'538').
-src/pipe/modules/queryeditor/io/MacroLoader.java:506	Found 'DU'-anomaly for variable 'arcPathPointY' (lines '506'-'551').
-src/pipe/modules/queryeditor/io/MacroLoader.java:507	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '507'-'525').
-src/pipe/modules/queryeditor/io/MacroLoader.java:507	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '507'-'527').
-src/pipe/modules/queryeditor/io/MacroLoader.java:507	Found 'DU'-anomaly for variable 'arcPathPointType' (lines '507'-'551').
-src/pipe/modules/queryeditor/io/MacroLoader.java:524	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/MacroLoader.java:526	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/MacroLoader.java:574	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/MacroLoader.java:592	Found 'DD'-anomaly for variable 'actionLabel' (lines '592'-'595').
+src/pipe/modules/queryeditor/io/MacroLoader.java:455	Position literals first in String comparisons
+src/pipe/modules/queryeditor/io/MacroLoader.java:473	Found 'DD'-anomaly for variable 'actionLabel' (lines '592'-'595').
 src/pipe/modules/queryeditor/io/MacroTransformer.java:32	Avoid unnecessary constructors - the compiler will generate these for you
 src/pipe/modules/queryeditor/io/MacroTransformer.java:32	Document empty constructor
 src/pipe/modules/queryeditor/io/MacroTransformer.java:47	Parameter 'filename' is not assigned and could be declared final
@@ -12274,70 +12131,46 @@ src/pipe/modules/queryeditor/io/QueryLoader.java:253	Avoid using if...else state
 src/pipe/modules/queryeditor/io/QueryLoader.java:307	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
 src/pipe/modules/queryeditor/io/QueryLoader.java:315	These nested if statements could be combined
 src/pipe/modules/queryeditor/io/QueryLoader.java:321	These nested if statements could be combined
-src/pipe/modules/queryeditor/io/QueryLoader.java:412	Avoid really long methods.
-src/pipe/modules/queryeditor/io/QueryLoader.java:412	The method 'createArc' has a Cyclomatic Complexity of 22.
-src/pipe/modules/queryeditor/io/QueryLoader.java:412	The method createArc() has an NPath complexity of 40960
-src/pipe/modules/queryeditor/io/QueryLoader.java:414	Found 'DD'-anomaly for variable 'arcID' (lines '414'-'428').
-src/pipe/modules/queryeditor/io/QueryLoader.java:415	Found 'DD'-anomaly for variable 'arcLabel' (lines '415'-'431').
-src/pipe/modules/queryeditor/io/QueryLoader.java:416	Found 'DD'-anomaly for variable 'arcSourceID' (lines '416'-'434').
-src/pipe/modules/queryeditor/io/QueryLoader.java:417	Found 'DD'-anomaly for variable 'arcTargetID' (lines '417'-'437').
-src/pipe/modules/queryeditor/io/QueryLoader.java:418	Found 'DD'-anomaly for variable 'arcStartX' (lines '418'-'448').
-src/pipe/modules/queryeditor/io/QueryLoader.java:419	Found 'DD'-anomaly for variable 'arcStartY' (lines '419'-'451').
-src/pipe/modules/queryeditor/io/QueryLoader.java:420	Found 'DD'-anomaly for variable 'arcEndX' (lines '420'-'454').
-src/pipe/modules/queryeditor/io/QueryLoader.java:421	Found 'DD'-anomaly for variable 'arcEndY' (lines '421'-'457').
-src/pipe/modules/queryeditor/io/QueryLoader.java:422	Found 'DD'-anomaly for variable 'arcRequired' (lines '422'-'442').
-src/pipe/modules/queryeditor/io/QueryLoader.java:423	Found 'DD'-anomaly for variable 'labelRequired' (lines '423'-'461').
-src/pipe/modules/queryeditor/io/QueryLoader.java:441	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/QueryLoader.java:443	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/QueryLoader.java:476	Found 'DD'-anomaly for variable 'arcPathPointX' (lines '476'-'503').
-src/pipe/modules/queryeditor/io/QueryLoader.java:476	Found 'DU'-anomaly for variable 'arcPathPointX' (lines '476'-'520').
-src/pipe/modules/queryeditor/io/QueryLoader.java:477	Found 'DD'-anomaly for variable 'arcPathPointY' (lines '477'-'509').
-src/pipe/modules/queryeditor/io/QueryLoader.java:477	Found 'DU'-anomaly for variable 'arcPathPointY' (lines '477'-'520').
-src/pipe/modules/queryeditor/io/QueryLoader.java:478	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '478'-'496').
-src/pipe/modules/queryeditor/io/QueryLoader.java:478	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '478'-'498').
-src/pipe/modules/queryeditor/io/QueryLoader.java:478	Found 'DU'-anomaly for variable 'arcPathPointType' (lines '478'-'520').
-src/pipe/modules/queryeditor/io/QueryLoader.java:495	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/QueryLoader.java:497	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/QueryLoader.java:543	Position literals first in String comparisons
-src/pipe/modules/queryeditor/io/QueryLoader.java:561	Found 'DD'-anomaly for variable 'actionLabel' (lines '561'-'564').
-src/pipe/modules/queryeditor/io/QueryLoader.java:666	Avoid really long methods.
-src/pipe/modules/queryeditor/io/QueryLoader.java:666	Avoid reassigning parameters such as 'macro'
-src/pipe/modules/queryeditor/io/QueryLoader.java:666	Avoid reassigning parameters such as 'macro'
-src/pipe/modules/queryeditor/io/QueryLoader.java:666	The method 'createMacroNode' has a Cyclomatic Complexity of 67.
-src/pipe/modules/queryeditor/io/QueryLoader.java:666	The method createMacroNode() has an NCSS line count of 175
-src/pipe/modules/queryeditor/io/QueryLoader.java:668	Found 'DD'-anomaly for variable 'nodeID' (lines '668'-'680').
-src/pipe/modules/queryeditor/io/QueryLoader.java:669	Found 'DD'-anomaly for variable 'nodeType' (lines '669'-'683').
-src/pipe/modules/queryeditor/io/QueryLoader.java:670	Found 'DD'-anomaly for variable 'nodeOperation' (lines '670'-'686').
-src/pipe/modules/queryeditor/io/QueryLoader.java:671	Found 'DD'-anomaly for variable 'nodeLabel' (lines '671'-'689').
-src/pipe/modules/queryeditor/io/QueryLoader.java:672	Found 'DD'-anomaly for variable 'nodePositionX' (lines '672'-'693').
-src/pipe/modules/queryeditor/io/QueryLoader.java:673	Found 'DD'-anomaly for variable 'nodePositionY' (lines '673'-'701').
-src/pipe/modules/queryeditor/io/QueryLoader.java:674	Found 'DD'-anomaly for variable 'nodeIncomingArcID' (lines '674'-'719').
-src/pipe/modules/queryeditor/io/QueryLoader.java:689	Found 'DU'-anomaly for variable 'nodeLabel' (lines '689'-'897').
-src/pipe/modules/queryeditor/io/QueryLoader.java:693	Unnecessary wrapper object creation
-src/pipe/modules/queryeditor/io/QueryLoader.java:701	Unnecessary wrapper object creation
-src/pipe/modules/queryeditor/io/QueryLoader.java:719	Found 'DD'-anomaly for variable 'nodeIncomingArcID' (lines '719'-'719').
-src/pipe/modules/queryeditor/io/QueryLoader.java:744	Found 'DD'-anomaly for variable 'node' (lines '744'-'746').
-src/pipe/modules/queryeditor/io/QueryLoader.java:810	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
-src/pipe/modules/queryeditor/io/QueryLoader.java:819	These nested if statements could be combined
-src/pipe/modules/queryeditor/io/QueryLoader.java:903	Avoid really long methods.
-src/pipe/modules/queryeditor/io/QueryLoader.java:903	The method createMacroArc() has an NPath complexity of 40960
-src/pipe/modules/queryeditor/io/QueryLoader.java:905	Found 'DD'-anomaly for variable 'arcID' (lines '905'-'919').
-src/pipe/modules/queryeditor/io/QueryLoader.java:906	Found 'DD'-anomaly for variable 'arcLabel' (lines '906'-'922').
-src/pipe/modules/queryeditor/io/QueryLoader.java:907	Found 'DD'-anomaly for variable 'arcSourceID' (lines '907'-'925').
-src/pipe/modules/queryeditor/io/QueryLoader.java:908	Found 'DD'-anomaly for variable 'arcTargetID' (lines '908'-'928').
-src/pipe/modules/queryeditor/io/QueryLoader.java:909	Found 'DD'-anomaly for variable 'arcStartX' (lines '909'-'939').
-src/pipe/modules/queryeditor/io/QueryLoader.java:910	Found 'DD'-anomaly for variable 'arcStartY' (lines '910'-'942').
-src/pipe/modules/queryeditor/io/QueryLoader.java:911	Found 'DD'-anomaly for variable 'arcEndX' (lines '911'-'945').
-src/pipe/modules/queryeditor/io/QueryLoader.java:912	Found 'DD'-anomaly for variable 'arcEndY' (lines '912'-'948').
-src/pipe/modules/queryeditor/io/QueryLoader.java:913	Found 'DD'-anomaly for variable 'arcRequired' (lines '913'-'933').
-src/pipe/modules/queryeditor/io/QueryLoader.java:914	Found 'DD'-anomaly for variable 'labelRequired' (lines '914'-'952').
-src/pipe/modules/queryeditor/io/QueryLoader.java:967	Found 'DD'-anomaly for variable 'arcPathPointX' (lines '967'-'994').
-src/pipe/modules/queryeditor/io/QueryLoader.java:967	Found 'DU'-anomaly for variable 'arcPathPointX' (lines '967'-'1,013').
-src/pipe/modules/queryeditor/io/QueryLoader.java:968	Found 'DD'-anomaly for variable 'arcPathPointY' (lines '968'-'1,000').
-src/pipe/modules/queryeditor/io/QueryLoader.java:968	Found 'DU'-anomaly for variable 'arcPathPointY' (lines '968'-'1,013').
-src/pipe/modules/queryeditor/io/QueryLoader.java:969	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '969'-'987').
-src/pipe/modules/queryeditor/io/QueryLoader.java:969	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '969'-'989').
-src/pipe/modules/queryeditor/io/QueryLoader.java:969	Found 'DU'-anomaly for variable 'arcPathPointType' (lines '969'-'1,013').
+src/pipe/modules/queryeditor/io/QueryLoader.java:426	Position literals first in String comparisons
+src/pipe/modules/queryeditor/io/QueryLoader.java:444	Found 'DD'-anomaly for variable 'actionLabel' (lines '561'-'564').
+src/pipe/modules/queryeditor/io/QueryLoader.java:549	Avoid really long methods.
+src/pipe/modules/queryeditor/io/QueryLoader.java:549	Avoid reassigning parameters such as 'macro'
+src/pipe/modules/queryeditor/io/QueryLoader.java:549	Avoid reassigning parameters such as 'macro'
+src/pipe/modules/queryeditor/io/QueryLoader.java:549	The method 'createMacroNode' has a Cyclomatic Complexity of 67.
+src/pipe/modules/queryeditor/io/QueryLoader.java:549	The method createMacroNode() has an NCSS line count of 175
+src/pipe/modules/queryeditor/io/QueryLoader.java:551	Found 'DD'-anomaly for variable 'nodeID' (lines '668'-'680').
+src/pipe/modules/queryeditor/io/QueryLoader.java:552	Found 'DD'-anomaly for variable 'nodeType' (lines '669'-'683').
+src/pipe/modules/queryeditor/io/QueryLoader.java:553	Found 'DD'-anomaly for variable 'nodeOperation' (lines '670'-'686').
+src/pipe/modules/queryeditor/io/QueryLoader.java:554	Found 'DD'-anomaly for variable 'nodeLabel' (lines '671'-'689').
+src/pipe/modules/queryeditor/io/QueryLoader.java:555	Found 'DD'-anomaly for variable 'nodePositionX' (lines '672'-'693').
+src/pipe/modules/queryeditor/io/QueryLoader.java:556	Found 'DD'-anomaly for variable 'nodePositionY' (lines '673'-'701').
+src/pipe/modules/queryeditor/io/QueryLoader.java:557	Found 'DD'-anomaly for variable 'nodeIncomingArcID' (lines '674'-'719').
+src/pipe/modules/queryeditor/io/QueryLoader.java:572	Found 'DU'-anomaly for variable 'nodeLabel' (lines '689'-'897').
+src/pipe/modules/queryeditor/io/QueryLoader.java:576	Unnecessary wrapper object creation
+src/pipe/modules/queryeditor/io/QueryLoader.java:584	Unnecessary wrapper object creation
+src/pipe/modules/queryeditor/io/QueryLoader.java:602	Found 'DD'-anomaly for variable 'nodeIncomingArcID' (lines '719'-'719').
+src/pipe/modules/queryeditor/io/QueryLoader.java:627	Found 'DD'-anomaly for variable 'node' (lines '744'-'746').
+src/pipe/modules/queryeditor/io/QueryLoader.java:693	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/pipe/modules/queryeditor/io/QueryLoader.java:702	These nested if statements could be combined
+src/pipe/modules/queryeditor/io/QueryLoader.java:786	Avoid really long methods.
+src/pipe/modules/queryeditor/io/QueryLoader.java:786	The method createMacroArc() has an NPath complexity of 40960
+src/pipe/modules/queryeditor/io/QueryLoader.java:788	Found 'DD'-anomaly for variable 'arcID' (lines '905'-'919').
+src/pipe/modules/queryeditor/io/QueryLoader.java:789	Found 'DD'-anomaly for variable 'arcLabel' (lines '906'-'922').
+src/pipe/modules/queryeditor/io/QueryLoader.java:790	Found 'DD'-anomaly for variable 'arcSourceID' (lines '907'-'925').
+src/pipe/modules/queryeditor/io/QueryLoader.java:791	Found 'DD'-anomaly for variable 'arcTargetID' (lines '908'-'928').
+src/pipe/modules/queryeditor/io/QueryLoader.java:792	Found 'DD'-anomaly for variable 'arcStartX' (lines '909'-'939').
+src/pipe/modules/queryeditor/io/QueryLoader.java:793	Found 'DD'-anomaly for variable 'arcStartY' (lines '910'-'942').
+src/pipe/modules/queryeditor/io/QueryLoader.java:794	Found 'DD'-anomaly for variable 'arcEndX' (lines '911'-'945').
+src/pipe/modules/queryeditor/io/QueryLoader.java:795	Found 'DD'-anomaly for variable 'arcEndY' (lines '912'-'948').
+src/pipe/modules/queryeditor/io/QueryLoader.java:796	Found 'DD'-anomaly for variable 'arcRequired' (lines '913'-'933').
+src/pipe/modules/queryeditor/io/QueryLoader.java:797	Found 'DD'-anomaly for variable 'labelRequired' (lines '914'-'952').
+src/pipe/modules/queryeditor/io/QueryLoader.java:850	Found 'DD'-anomaly for variable 'arcPathPointX' (lines '967'-'994').
+src/pipe/modules/queryeditor/io/QueryLoader.java:850	Found 'DU'-anomaly for variable 'arcPathPointX' (lines '967'-'1,013').
+src/pipe/modules/queryeditor/io/QueryLoader.java:851	Found 'DD'-anomaly for variable 'arcPathPointY' (lines '968'-'1,000').
+src/pipe/modules/queryeditor/io/QueryLoader.java:851	Found 'DU'-anomaly for variable 'arcPathPointY' (lines '968'-'1,013').
+src/pipe/modules/queryeditor/io/QueryLoader.java:852	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '969'-'987').
+src/pipe/modules/queryeditor/io/QueryLoader.java:852	Found 'DD'-anomaly for variable 'arcPathPointType' (lines '969'-'989').
+src/pipe/modules/queryeditor/io/QueryLoader.java:852	Found 'DU'-anomaly for variable 'arcPathPointType' (lines '969'-'1,013').
 src/pipe/modules/queryeditor/io/QueryTransformer.java:32	Avoid unnecessary constructors - the compiler will generate these for you
 src/pipe/modules/queryeditor/io/QueryTransformer.java:32	Document empty constructor
 src/pipe/modules/queryeditor/io/QueryTransformer.java:47	Parameter 'filename' is not assigned and could be declared final
@@ -14046,394 +13879,3 @@ src/pipe/server/serverCommon/ThreadGroupNameFilter.java:4	Package name contains 
 src/pipe/server/serverCommon/ThreadGroupNameFilter.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
 src/pipe/server/serverCommon/ThreadGroupNameFilter.java:18	Avoid using ThreadGroup; it is not thread safe
 src/pipe/server/serverCommon/ThreadGroupNameFilter.java:27	Avoid using ThreadGroup; it is not thread safe
-test/abbot/tester/extensions/ArcTester.java:21	Parameter 'comp' is not assigned and could be declared final
-test/abbot/tester/extensions/ArcTester.java:22	Avoid variables with short names like a
-test/abbot/tester/extensions/ArcTester.java:22	Local variable 'a' could be declared final
-test/abbot/tester/extensions/ArcTester.java:23	Local variable 'tag' could be declared final
-test/abbot/tester/extensions/ArcTester.java:24	Local variable 'details' could be declared final
-test/pipe/AllTests.java:17	JUnit 4 indicates test suites via annotations, not the suite method.
-test/pipe/AllTests.java:18	Local variable 'suite' could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:1	Package name contains upper case characters
-test/pipe/common/dataLayer/GuiViewTest.java:12	No need to import a type that lives in the same package
-test/pipe/common/dataLayer/GuiViewTest.java:13	No need to import a type that lives in the same package
-test/pipe/common/dataLayer/GuiViewTest.java:17	Avoid unused imports such as 'pipe.gui.ZoomController'
-test/pipe/common/dataLayer/GuiViewTest.java:17	Avoid unused imports such as 'pipe.gui.ZoomController'
-test/pipe/common/dataLayer/GuiViewTest.java:24	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/common/dataLayer/GuiViewTest.java:25	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/common/dataLayer/GuiViewTest.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/common/dataLayer/GuiViewTest.java:26	Private field 'testFileString' could be made final; it is only initialized in the declaration or constructor.
-test/pipe/common/dataLayer/GuiViewTest.java:28	Parameter 'name' is not assigned and could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:32	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/common/dataLayer/GuiViewTest.java:36	Local variable 'frame' could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:42	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/common/dataLayer/GuiViewTest.java:44	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/common/dataLayer/GuiViewTest.java:53	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/common/dataLayer/GuiViewTest.java:53	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/common/dataLayer/GuiViewTest.java:54	Found 'DU'-anomaly for variable 'button1' (lines '54'-'75').
-test/pipe/common/dataLayer/GuiViewTest.java:54	Found 'DU'-anomaly for variable 'button1' (lines '54'-'75').
-test/pipe/common/dataLayer/GuiViewTest.java:54	Found 'DU'-anomaly for variable 'button1' (lines '54'-'75').
-test/pipe/common/dataLayer/GuiViewTest.java:54	Local variable 'button1' could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:55	Avoid variables with short names like c
-test/pipe/common/dataLayer/GuiViewTest.java:55	Parameter 'c' is not assigned and could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:61	Local variable 'button2' could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:62	Avoid variables with short names like c
-test/pipe/common/dataLayer/GuiViewTest.java:62	Parameter 'c' is not assigned and could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:77	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/common/dataLayer/GuiViewTest.java:77	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/common/dataLayer/GuiViewTest.java:80	Found 'DU'-anomaly for variable 'expectedSizes' (lines '80'-'100').
-test/pipe/common/dataLayer/GuiViewTest.java:80	Found 'DU'-anomaly for variable 'expectedSizes' (lines '80'-'100').
-test/pipe/common/dataLayer/GuiViewTest.java:84	Avoid using if statements without curly braces
-test/pipe/common/dataLayer/GuiViewTest.java:85	Found 'DU'-anomaly for variable 'expectedSizes' (lines '85'-'100').
-test/pipe/common/dataLayer/GuiViewTest.java:85	Found 'DU'-anomaly for variable 'expectedSizes' (lines '85'-'100').
-test/pipe/common/dataLayer/GuiViewTest.java:88	Found 'DU'-anomaly for variable 'button' (lines '88'-'100').
-test/pipe/common/dataLayer/GuiViewTest.java:88	Found 'DU'-anomaly for variable 'button' (lines '88'-'100').
-test/pipe/common/dataLayer/GuiViewTest.java:88	Local variable 'button' could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:89	Avoid variables with short names like c
-test/pipe/common/dataLayer/GuiViewTest.java:89	Parameter 'c' is not assigned and could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:98	Local variable 'actualSizes' could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:99	JUnit assertions should include a message
-test/pipe/common/dataLayer/GuiViewTest.java:99	Use assertEquals(x, y) instead of assertTrue(x.equals(y))
-test/pipe/common/dataLayer/GuiViewTest.java:102	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/common/dataLayer/GuiViewTest.java:102	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/common/dataLayer/GuiViewTest.java:104	Found 'DD'-anomaly for variable 'expectedLocations' (lines '104'-'106').
-test/pipe/common/dataLayer/GuiViewTest.java:104	Found 'DD'-anomaly for variable 'expectedLocations' (lines '104'-'106').
-test/pipe/common/dataLayer/GuiViewTest.java:104	Found 'DU'-anomaly for variable 'expectedLocations' (lines '104'-'122').
-test/pipe/common/dataLayer/GuiViewTest.java:104	Found 'DU'-anomaly for variable 'expectedLocations' (lines '104'-'122').
-test/pipe/common/dataLayer/GuiViewTest.java:109	Found 'DU'-anomaly for variable 'button' (lines '109'-'122').
-test/pipe/common/dataLayer/GuiViewTest.java:109	Found 'DU'-anomaly for variable 'button' (lines '109'-'122').
-test/pipe/common/dataLayer/GuiViewTest.java:110	Avoid variables with short names like c
-test/pipe/common/dataLayer/GuiViewTest.java:110	Parameter 'c' is not assigned and could be declared final
-test/pipe/common/dataLayer/GuiViewTest.java:121	JUnit assertions should include a message
-test/pipe/common/dataLayer/GuiViewTest.java:125	Found 'DD'-anomaly for variable 'match' (lines '125'-'128').
-test/pipe/common/dataLayer/GuiViewTest.java:128	Found 'DD'-anomaly for variable 'match' (lines '128'-'128').
-test/pipe/common/dataLayer/GuiViewTest.java:135	Found 'DD'-anomaly for variable 'locations' (lines '135'-'138').
-test/pipe/common/dataLayer/GuiViewTest.java:138	Found 'DD'-anomaly for variable 'locations' (lines '138'-'140').
-test/pipe/common/dataLayer/GuiViewTest.java:140	Found 'DD'-anomaly for variable 'locations' (lines '140'-'138').
-test/pipe/common/dataLayer/GuiViewTest.java:147	Found 'DD'-anomaly for variable 'sizes' (lines '147'-'150').
-test/pipe/common/dataLayer/GuiViewTest.java:150	Found 'DD'-anomaly for variable 'sizes' (lines '150'-'150').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:1	Package name contains upper case characters
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:25	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:27	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:27	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:27	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:29	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:31	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:34	Found 'DU'-anomaly for variable 'resultspane' (lines '34'-'72').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:34	Local variable 'resultspane' could be declared final
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:38	Found 'DU'-anomaly for variable 'count' (lines '38'-'72').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:42	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:42	Local variable 'nets' could be declared final
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:50	Avoid instantiating new objects inside loops
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:50	Local variable 'testNet' could be declared final
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:54	Avoid instantiating new objects inside loops
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:54	Local variable 'file1' could be declared final
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:55	Avoid instantiating new objects inside loops
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:55	Local variable 'file2' could be declared final
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:62	Avoid using if statements without curly braces
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:63	Found 'DU'-anomaly for variable 'count' (lines '63'-'72').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:69	System.out.print is used
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:74	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:78	Avoid using if statements without curly braces
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:79	Avoid using if statements without curly braces
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:83	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:84	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:87	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:87	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:91	Avoid instantiating new objects inside loops
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:92	Avoid instantiating new objects inside loops
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:96	JUnit assertions should include a message
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:101	Avoid using if statements without curly braces
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:109	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:119	Avoid using if statements without curly braces
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:129	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:129	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:131	Avoid excessively long variable names like expectedTransitionsNo
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:131	Found 'DU'-anomaly for variable 'expectedTransitionsNo' (lines '131'-'183').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:135	Found 'DD'-anomaly for variable 'header1' (lines '135'-'135').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:135	Found 'DU'-anomaly for variable 'header1' (lines '135'-'183').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:136	Found 'DD'-anomaly for variable 'header2' (lines '136'-'136').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:136	Found 'DU'-anomaly for variable 'header2' (lines '136'-'183').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:139	Found 'DD'-anomaly for variable 'record1' (lines '139'-'139').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:139	Found 'DU'-anomaly for variable 'record1' (lines '139'-'183').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:140	Found 'DD'-anomaly for variable 'record2' (lines '140'-'140').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:140	Found 'DU'-anomaly for variable 'record2' (lines '140'-'183').
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:151	Avoid printStackTrace(); use a logger call instead.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:152	A method should have only one exit point, and that should be the last statement in the method
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:154	Avoid printStackTrace(); use a logger call instead.
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:158	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:169	Use assertEquals(x, y) instead of assertTrue(x.equals(y))
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:171	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/dataLayer/calculations/StateSpaceGeneratorTest.java:177	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/gui/FunctionalScriptsTest.java:7	Avoid unused imports such as 'javax.imageio'
-test/pipe/gui/FunctionalScriptsTest.java:8	Avoid unused imports such as 'javax.swing'
-test/pipe/gui/FunctionalScriptsTest.java:13	Avoid unused imports such as 'abbot.tester'
-test/pipe/gui/FunctionalScriptsTest.java:20	This class name ends with 'Test' but contains no test cases
-test/pipe/gui/FunctionalScriptsTest.java:22	The field name indicates a constant but its modifiers do not
-test/pipe/gui/FunctionalScriptsTest.java:26	Parameter 'filename' is not assigned and could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:31	JUnit 4 indicates test suites via annotations, not the suite method.
-test/pipe/gui/FunctionalScriptsTest.java:34	Parameter 'file' is not assigned and could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:45	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/gui/FunctionalScriptsTest.java:65	Parameter 'color' is not assigned and could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:65	Parameter 'component' is not assigned and could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:65	Parameter 'stepDescription' is not assigned and could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:66	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:66	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:68	Local variable 'expectedColor' could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:69	Avoid variables with short names like bi
-test/pipe/gui/FunctionalScriptsTest.java:69	Local variable 'bi' could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:88	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:88	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:90	Local variable 'unwantedColor' could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:91	Avoid variables with short names like bi
-test/pipe/gui/FunctionalScriptsTest.java:91	Local variable 'bi' could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:95	assertTrue(!expr) can be replaced by assertFalse(expr)
-test/pipe/gui/FunctionalScriptsTest.java:109	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:109	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:111	Found 'DD'-anomaly for variable 'tokens' (lines '111'-'123').
-test/pipe/gui/FunctionalScriptsTest.java:112	Avoid variables with short names like bi
-test/pipe/gui/FunctionalScriptsTest.java:112	Local variable 'bi' could be declared final
-test/pipe/gui/FunctionalScriptsTest.java:123	Found 'DD'-anomaly for variable 'tokens' (lines '123'-'123').
-test/pipe/gui/FunctionalScriptsTest.java:138	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:138	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/FunctionalScriptsTest.java:152	Avoid variables with short names like bi
-test/pipe/gui/FunctionalScriptsTest.java:154	Avoid variables with short names like g
-test/pipe/gui/FunctionalScriptsTest.java:168	Found 'DU'-anomaly for variable 'rgbToFind' (lines '168'-'178').
-test/pipe/gui/FunctionalScriptsTest.java:173	Avoid using if statements without curly braces
-test/pipe/gui/FunctionalScriptsTest.java:174	A method should have only one exit point, and that should be the last statement in the method
-test/pipe/gui/GuiFrameTest.java:13	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/gui/GuiFrameTest.java:14	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/gui/GuiFrameTest.java:16	Parameter 'name' is not assigned and could be declared final
-test/pipe/gui/GuiFrameTest.java:20	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/gui/GuiFrameTest.java:28	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/gui/GuiFrameTest.java:30	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/gui/GuiFrameTest.java:39	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/GuiFrameTest.java:39	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/gui/GuiFrameTest.java:40	Found 'DU'-anomaly for variable 'button' (lines '40'-'50').
-test/pipe/gui/GuiFrameTest.java:40	Found 'DU'-anomaly for variable 'button' (lines '40'-'50').
-test/pipe/gui/GuiFrameTest.java:40	Local variable 'button' could be declared final
-test/pipe/gui/GuiFrameTest.java:41	Avoid variables with short names like c
-test/pipe/gui/GuiFrameTest.java:41	Parameter 'c' is not assigned and could be declared final
-test/pipe/gui/GuiFrameTest.java:52	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/gui/GuiFrameTest.java:52	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/gui/GuiFrameTest.java:53	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/io/ModuleManagerTest.java:17	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/io/ModuleManagerTest.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/io/ModuleManagerTest.java:19	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/io/ModuleManagerTest.java:24	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/io/ModuleManagerTest.java:26	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/io/ModuleManagerTest.java:27	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/io/ModuleManagerTest.java:30	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/io/ModuleManagerTest.java:30	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/io/ModuleManagerTest.java:32	Local variable 'dir' could be declared final
-test/pipe/io/ModuleManagerTest.java:34	Consider replacing this Vector with the newer java.util.List
-test/pipe/io/ModuleManagerTest.java:34	Local variable 'names' could be declared final
-test/pipe/io/ModuleManagerTest.java:35	Local variable 'classes' could be declared final
-test/pipe/io/ModuleManagerTest.java:37	Found 'DU'-anomaly for variable 'itemNumber' (lines '37'-'47').
-test/pipe/io/ModuleManagerTest.java:39	Local variable 'moduleClass' could be declared final
-test/pipe/io/ModuleManagerTest.java:40	Local variable 'moduleName' could be declared final
-test/pipe/io/ModuleManagerTest.java:41	System.out.print is used
-test/pipe/io/ModuleManagerTest.java:44	JUnit assertions should include a message
-test/pipe/io/ModuleManagerTest.java:44	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/io/ModuleManagerTest.java:45	Found 'DU'-anomaly for variable 'itemNumber' (lines '45'-'47').
-test/pipe/io/ModuleManagerTest.java:49	Parameter 'moduleList' is not assigned and could be declared final
-test/pipe/io/StateRecordTest.java:20	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/io/StateRecordTest.java:21	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/io/StateRecordTest.java:23	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/io/StateRecordTest.java:29	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/io/StateRecordTest.java:36	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/io/StateRecordTest.java:36	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/io/StateRecordTest.java:42	Local variable 'record1' could be declared final
-test/pipe/io/StateRecordTest.java:43	Local variable 'record2' could be declared final
-test/pipe/io/StateRecordTest.java:44	Local variable 'result' could be declared final
-test/pipe/io/StateRecordTest.java:52	Local variable 'output1' could be declared final
-test/pipe/io/StateRecordTest.java:54	Local variable 'output2' could be declared final
-test/pipe/io/StateRecordTest.java:60	JUnit assertions should include a message
-test/pipe/io/StateRecordTest.java:60	Use assertEquals(x, y) instead of assertTrue(x.equals(y))
-test/pipe/io/StateRecordTest.java:61	JUnit assertions should include a message
-test/pipe/io/StateRecordTest.java:62	JUnit assertions should include a message
-test/pipe/io/StateRecordTest.java:62	Use assertEquals(x, y) instead of assertTrue(x.equals(y))
-test/pipe/io/StateRecordTest.java:63	JUnit assertions should include a message
-test/pipe/io/StateRecordTest.java:63	Use assertEquals(x, y) instead of assertTrue(x.equals(y))
-test/pipe/io/StateRecordTest.java:64	JUnit assertions should include a message
-test/pipe/io/StateRecordTest.java:65	Use assertEquals(x, y) instead of assertTrue(x.equals(y))
-test/pipe/io/TransitionRecordTest.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/io/TransitionRecordTest.java:20	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/io/TransitionRecordTest.java:22	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/io/TransitionRecordTest.java:28	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/io/TransitionRecordTest.java:34	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/io/TransitionRecordTest.java:34	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/io/TransitionRecordTest.java:37	Avoid variables with short names like to
-test/pipe/io/TransitionRecordTest.java:37	Found 'DU'-anomaly for variable 'to' (lines '37'-'72').
-test/pipe/io/TransitionRecordTest.java:38	Found 'DU'-anomaly for variable 'rate' (lines '38'-'72').
-test/pipe/io/TransitionRecordTest.java:39	Found 'DU'-anomaly for variable 'transitionsNo' (lines '39'-'72').
-test/pipe/io/TransitionRecordTest.java:40	Found 'DU'-anomaly for variable 'input' (lines '40'-'72').
-test/pipe/io/TransitionRecordTest.java:40	Local variable 'input' could be declared final
-test/pipe/io/TransitionRecordTest.java:41	Found 'DU'-anomaly for variable 'output' (lines '41'-'72').
-test/pipe/io/TransitionRecordTest.java:41	Local variable 'output' could be declared final
-test/pipe/io/TransitionRecordTest.java:45	Avoid instantiating new objects inside loops
-test/pipe/io/TransitionRecordTest.java:45	Local variable 'tRecord' could be declared final
-test/pipe/io/TransitionRecordTest.java:56	Found 'DD'-anomaly for variable 'result' (lines '56'-'59').
-test/pipe/io/TransitionRecordTest.java:56	Found 'DD'-anomaly for variable 'result' (lines '56'-'60').
-test/pipe/io/TransitionRecordTest.java:59	Avoid using if...else statements without curly braces
-test/pipe/io/TransitionRecordTest.java:60	Avoid using if...else statements without curly braces
-test/pipe/io/TransitionRecordTest.java:64	Avoid using if...else statements without curly braces
-test/pipe/io/TransitionRecordTest.java:65	Avoid using if...else statements without curly braces
-test/pipe/modules/gspn/GSPNAnalysisTest.java:22	This class has too many methods, consider refactoring it.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:24	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:25	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/gspn/GSPNAnalysisTest.java:25	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/gspn/GSPNAnalysisTest.java:25	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:26	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/gspn/GSPNAnalysisTest.java:26	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/gspn/GSPNAnalysisTest.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:27	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:32	Avoid variables with short names like df
-test/pipe/modules/gspn/GSPNAnalysisTest.java:36	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/modules/gspn/GSPNAnalysisTest.java:39	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:50	Local variable 'resultspane' could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:59	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/modules/gspn/GSPNAnalysisTest.java:61	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:62	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:63	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:64	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/gspn/GSPNAnalysisTest.java:74	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/gspn/GSPNAnalysisTest.java:74	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/gspn/GSPNAnalysisTest.java:76	Local variable 'currentMarking' could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:77	Local variable 'testNet' could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:78	Local variable 'expected' could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:79	Local variable 'actual' could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:82	JUnit assertions should include a message
-test/pipe/modules/gspn/GSPNAnalysisTest.java:83	JUnit assertions should include a message
-test/pipe/modules/gspn/GSPNAnalysisTest.java:84	JUnit assertions should include a message
-test/pipe/modules/gspn/GSPNAnalysisTest.java:89	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/gspn/GSPNAnalysisTest.java:89	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/gspn/GSPNAnalysisTest.java:91	JUnit assertions should include a message
-test/pipe/modules/gspn/GSPNAnalysisTest.java:92	JUnit assertions should include a message
-test/pipe/modules/gspn/GSPNAnalysisTest.java:97	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/gspn/GSPNAnalysisTest.java:97	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/gspn/GSPNAnalysisTest.java:104	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/gspn/GSPNAnalysisTest.java:104	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/gspn/GSPNAnalysisTest.java:116	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/gspn/GSPNAnalysisTest.java:116	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/gspn/GSPNAnalysisTest.java:131	Found 'DU'-anomaly for variable 'stateList1' (lines '131'-'157').
-test/pipe/modules/gspn/GSPNAnalysisTest.java:132	Found 'DU'-anomaly for variable 'stateList2' (lines '132'-'157').
-test/pipe/modules/gspn/GSPNAnalysisTest.java:140	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/modules/gspn/GSPNAnalysisTest.java:152	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/modules/gspn/GSPNAnalysisTest.java:209	Avoid variables with short names like a
-test/pipe/modules/gspn/GSPNAnalysisTest.java:209	Parameter 'a' is not assigned and could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:211	Avoid variables with short names like i
-test/pipe/modules/gspn/GSPNAnalysisTest.java:211	Found 'DD'-anomaly for variable 'i' (lines '211'-'215').
-test/pipe/modules/gspn/GSPNAnalysisTest.java:215	Avoid using for statements without curly braces
-test/pipe/modules/gspn/GSPNAnalysisTest.java:224	System.out.print is used
-test/pipe/modules/gspn/GSPNAnalysisTest.java:229	Parameter 'first' is not assigned and could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:229	Parameter 'second' is not assigned and could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:233	A method should have only one exit point, and that should be the last statement in the method
-test/pipe/modules/gspn/GSPNAnalysisTest.java:233	Avoid using if statements without curly braces
-test/pipe/modules/gspn/GSPNAnalysisTest.java:241	Parameter 'first' is not assigned and could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:241	Parameter 'second' is not assigned and could be declared final
-test/pipe/modules/gspn/GSPNAnalysisTest.java:247	A method should have only one exit point, and that should be the last statement in the method
-test/pipe/modules/gspn/GSPNAnalysisTest.java:247	Avoid using if statements without curly braces
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:1	Package name contains upper case characters
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:8	Use explicit scoping instead of the default package private level
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:14	Use explicit scoping instead of the default package private level
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:24	Parameter 'name' is not assigned and could be declared final
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:28	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:33	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:35	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:38	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:38	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:39	Found 'DD'-anomaly for variable 'matches' (lines '39'-'46').
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:40	Avoid variables with short names like c
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:40	Local variable 'c' could be declared final
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:41	Found 'DU'-anomaly for variable 'expected' (lines '41'-'51').
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:41	Local variable 'expected' could be declared final
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:42	Found 'DU'-anomaly for variable 'analysed' (lines '42'-'51').
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:42	Local variable 'analysed' could be declared final
-test/pipe/modules/invariantAnalysis/InvariantAnalysisTest.java:46	Found 'DD'-anomaly for variable 'matches' (lines '46'-'46').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:1	Package name contains upper case characters
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:17	The class 'ReachabilityGraphGeneratorTest' has a Cyclomatic Complexity of 4 (Highest = 11).
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:19	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:19	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:20	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:20	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:20	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:21	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:23	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:33	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:35	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:36	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:37	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:41	Avoid variables with short names like a
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:41	Parameter 'a' is not assigned and could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:42	Avoid variables with short names like i
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:42	Found 'DD'-anomaly for variable 'i' (lines '42'-'44').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:44	Avoid using for statements without curly braces
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:45	Local variable 'testNet' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:50	System.out.print is used
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:56	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:56	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:56	The method 'testDotFile' has a Cyclomatic Complexity of 11.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:60	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:60	Local variable 'testFiles' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:61	Local variable 'numberofTest' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:62	Found 'DD'-anomaly for variable 'filename' (lines '62'-'69').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:62	Found 'DD'-anomaly for variable 'filename' (lines '62'-'71').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:62	Found 'DD'-anomaly for variable 'filename' (lines '62'-'73').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:62	Found 'DU'-anomaly for variable 'filename' (lines '62'-'98').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:66	Avoid using for statements without curly braces
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:67	Switch statements should have a default label
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:68	Avoid using if statements without curly braces
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:70	Avoid using if statements without curly braces
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:72	Avoid using if statements without curly braces
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:76	Avoid instantiating new objects inside loops
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:76	Local variable 'expected' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:78	Avoid instantiating new objects inside loops
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:78	Local variable 'reachabilityFile' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:88	JUnit assertions should include a message
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:88	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:95	JUnit assertions should include a message
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphGeneratorTest.java:95	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:1	Package name contains upper case characters
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:26	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:27	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:27	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:27	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:28	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:28	Avoid using implementation types like 'ArrayList'; use the interface instead
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:29	Use explicit scoping instead of the default package private level
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:30	JUnit 4 tests that set up tests should use the @Before annotation
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:32	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:42	JUnit 4 tests that clean up tests should use the @After annotation
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:44	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:45	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:46	Assigning an Object to null is a code smell.  Consider refactoring.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:50	Avoid variables with short names like a
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:50	Parameter 'a' is not assigned and could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:51	Avoid variables with short names like i
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:51	Found 'DD'-anomaly for variable 'i' (lines '51'-'53').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:53	Avoid using for statements without curly braces
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:54	Local variable 'testNet' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:59	System.out.print is used
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:65	A method/constructor shouldn't explicitly throw java.lang.Exception
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:65	JUnit 4 tests that execute tests should use the @Test annotation
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:72	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:72	Local variable 'testFiles' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:75	Local variable 'numberofTest' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:80	Found 'DD'-anomaly for variable 'dotParser' (lines '80'-'91').
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:82	Avoid instantiating new objects inside loops
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:82	Local variable 'header' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:84	Avoid instantiating new objects inside loops
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:84	Local variable 'reachabilityFile' could be declared final
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:87	Avoid instantiating new objects inside loops
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:91	Avoid instantiating new objects inside loops
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:96	JUnit assertions should include a message
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:96	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:98	JUnit assertions should include a message
-test/pipe/modules/reachabilityGraphGenerator/ReachabilityGraphTest.java:98	Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
