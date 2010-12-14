@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Resources"/>
-	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" output="build/test" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="test/lib/abbot.jar"/>
 	<classpathentry kind="lib" path="test/lib/junit.jar"/>

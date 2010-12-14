@@ -61,7 +61,7 @@ import pipe.modules.queryeditor.gui.performancetrees.valuenodes.ValueNode;
 public class MacroLoader implements QueryConstants
 {
 
-	private static MacroDefinition	macro;
+	static MacroDefinition	macro;
 
 	public static MacroDefinition getMacro()
 	{
@@ -393,7 +393,7 @@ public class MacroLoader implements QueryConstants
 							Element outgoingArcsElement = (Element) outgoingArcsNode;
 							if ("arc".equals(outgoingArcsElement.getNodeName()))
 							{
-								MacroLoader.createArc(outgoingArcsElement);
+								CommonQueryEditor.createArc(inputElement, "macroLoader");;
 							}
 						}
 					}
@@ -429,125 +429,6 @@ public class MacroLoader implements QueryConstants
 				}
 			}
 		}
-	}
-
-	/**
-	 * Create a PerformanceTreeArc object from an PerformanceTreeArc DOM Element
-	 * 
-	 * @param inputElement -
-	 *            Input PerformanceTreeArc DOM Element
-	 * @return PerformanceTreeArc Object
-	 */
-	private static void createArc(final Element inputElement)
-	{
-		String arcID = null;
-		String arcLabel = null;
-		String arcSourceID = null;
-		String arcTargetID = null;
-		double arcStartX = 0;
-		double arcStartY = 0;
-		double arcEndX = 0;
-		double arcEndY = 0;
-		boolean arcRequired = true;
-		boolean labelRequired = true;
-
-		// retrieve info from element's attributes
-		String retrievedArcID = inputElement.getAttribute("id");
-		if (retrievedArcID.length() > 0)
-			arcID = retrievedArcID;
-		String retrievedArcLabel = inputElement.getAttribute("label");
-		if (retrievedArcLabel.length() > 0)
-			arcLabel = retrievedArcLabel;
-		String retrievedArcSourceID = inputElement.getAttribute("source");
-		if (retrievedArcSourceID.length() > 0)
-			arcSourceID = retrievedArcSourceID;
-		String retrievedArcTargetID = inputElement.getAttribute("target");
-		if (retrievedArcTargetID.length() > 0)
-			arcTargetID = retrievedArcTargetID;
-		String retrievedArcRequired = inputElement.getAttribute("required");
-		if (retrievedArcRequired.length() > 0)
-		{
-			if (retrievedArcRequired.equals("true"))
-				arcRequired = true;
-			else if (retrievedArcRequired.equals("false"))
-				arcRequired = false;
-		}
-		String retrievedArcStartX = inputElement.getAttribute("startX");
-		if (retrievedArcStartX.length() > 0)
-			arcStartX = Double.parseDouble(retrievedArcStartX);
-		String retrievedArcStartY = inputElement.getAttribute("startY");
-		if (retrievedArcStartY.length() > 0)
-			arcStartY = Double.parseDouble(retrievedArcStartY);
-		String retrievedArcEndX = inputElement.getAttribute("endX");
-		if (retrievedArcEndX.length() > 0)
-			arcEndX = Double.parseDouble(retrievedArcEndX);
-		String retrievedArcEndY = inputElement.getAttribute("endY");
-		if (retrievedArcEndY.length() > 0)
-			arcEndY = Double.parseDouble(retrievedArcEndY);
-
-		PTNode parentNodeType = MacroLoader.macro.getMacroNode(arcSourceID).getNodeType();
-		if (parentNodeType.equals(PTNode.MACRO))
-			labelRequired = false;
-
-		// create arc
-		PerformanceTreeArc tempArc = new PerformanceTreeArc(arcStartX,
-															arcStartY,
-															arcEndX,
-															arcEndY,
-															arcSourceID,
-															arcTargetID,
-															arcLabel,
-															labelRequired,
-															arcRequired,
-															arcID);
-
-		// extract arcPathPoint details and attach them to arc
-		float arcPathPointX = 0;
-		float arcPathPointY = 0;
-		boolean arcPathPointType = false;
-		NodeList arcChildNodes = inputElement.getChildNodes();
-		if (arcChildNodes.getLength() > 0)
-		{
-			// delete arc path points, so that we can add these ones
-			tempArc.getArcPath().purgePathPoints();
-			for (int i = 1; i < arcChildNodes.getLength() - 1; i++)
-			{
-				Node arcChildNode = arcChildNodes.item(i);
-				if (arcChildNode instanceof Element)
-				{
-					Element arcElement = (Element) arcChildNode;
-					if (arcElement.getNodeName().equals("arcpathpoint"))
-					{
-						String retrievedArcPathPointType = arcElement.getAttribute("type");
-						if (retrievedArcPathPointType.length() > 0)
-						{
-							if (retrievedArcPathPointType.equals("true"))
-								arcPathPointType = true;
-							else if (retrievedArcPathPointType.equals("false"))
-								arcPathPointType = false;
-						}
-						String retrievedArcPathPointX = arcElement.getAttribute("x");
-						if (retrievedArcPathPointX.length() > 0)
-						{
-							arcPathPointX = Float.parseFloat(retrievedArcPathPointX);
-							arcPathPointX += QueryConstants.ARC_CONTROL_POINT_CONSTANT + 1;
-						}
-						String retrievedArcPathPointY = arcElement.getAttribute("y");
-						if (retrievedArcPathPointY.length() > 0)
-						{
-							arcPathPointY = Float.parseFloat(retrievedArcPathPointY);
-							arcPathPointY += QueryConstants.ARC_CONTROL_POINT_CONSTANT + 1;
-						}
-						// attach arc path point to arc
-						tempArc.getArcPath().addPoint(arcPathPointX, arcPathPointY, arcPathPointType);
-					}
-				}
-			}
-		}
-
-		// add arc to MacroDefinition
-		tempArc = MacroLoader.macro.addMacroArc(tempArc);
-		MacroManager.getView().addNewMacroObject(tempArc);
 	}
 
 	/**
